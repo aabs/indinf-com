@@ -1,0 +1,14 @@
+---
+author: aabs
+comments: true
+date: 2005-04-18 21:11:00+00:00
+layout: post
+link: https://aabs.wordpress.com/2005/04/18/111388389395127377/
+slug: '111388389395127377'
+title: No Content Found
+wordpress_id: 180
+tags:
+- froth
+---
+
+That's not the way we do things here...
