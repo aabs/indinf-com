@@ -1,0 +1,18 @@
+---
+author: aabs
+comments: true
+date: 2005-04-28 15:54:00+00:00
+layout: page
+header: no
+link: https://aabs.wordpress.com/2005/04/28/111467042245169271/
+slug: '111467042245169271'
+title: gracing my desktop today
+wordpress_id: 65
+tags:
+- art
+- misc
+---
+
+Here's what's gracing my desktop today:
+
+[![](http://tn3-1.deviantart.com/300W/fs6.deviantart.com/i/2005/113/6/9/Symbiosis_by_polycarb0n.jpg)](http://www.deviantart.com/view/17532391)

@@ -1,0 +1,21 @@
+---
+author: aabs
+comments: true
+date: 2005-11-10 03:07:24+00:00
+layout: page
+header: no
+link: https://aabs.wordpress.com/2005/11/10/funny/
+slug: funny
+title: Funny
+wordpress_id: 17
+tags:
+- humour
+---
+
+I thought this one was so funny I had to immortalise it by posting it here...
+
+
+<blockquote>Donald Rumsfeld is giving the President his daily briefing. He concludes by saying: "Yesterday, 3 Brazilian soldiers were killed." "OH NO!" the President exclaims. "That's terrible!" As the President sits, head in hands, his staff quietly watch this display of emotion. Finally, the President looks up and asks, "How many is a brazillion?"</blockquote>
+
+
+ 

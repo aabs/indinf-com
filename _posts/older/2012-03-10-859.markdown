@@ -1,0 +1,15 @@
+---
+author: aabs
+comments: true
+date: 2012-03-10 08:48:16+00:00
+layout: page
+header: no
+link: https://aabs.wordpress.com/2012/03/10/859/
+slug: '859'
+title: No Content Found
+wordpress_id: 859
+categories:
+- SemanticWeb
+---
+
+Very true comments. Fearlessness is a hard thing to teach a child.

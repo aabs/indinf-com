@@ -1,0 +1,78 @@
+---
+author: aabs
+comments: true
+date: 2005-04-20 18:44:00+00:00
+layout: page
+header: no
+link: https://aabs.wordpress.com/2005/04/20/111398669529094891/
+slug: '111398669529094891'
+title: Who should you vote for?
+wordpress_id: 59
+tags:
+- misc
+---
+
+[![Who Should You Vote For?](http://www.whoshouldyouvotefor.com/wsyvfbloglogo.jpg)](http://www.whoshouldyouvotefor.com)
+
+
+# Who should I vote for?
+
+
+
+
+## Your expected outcome:
+
+
+Liberal Democrat
+
+
+## Your actual outcome:
+
+
+<table cellpadding="0" cellspacing="0" ><tbody >
+<tr >
+
+<td align="right" valign="middle" >Labour -4 ![](http://www.whoshouldyouvotefor.com/tiny_grey_light.gif)
+</td>
+
+<td align="left" valign="middle" >
+</td>
+</tr>
+<tr >
+
+<td align="right" valign="middle" >Conservative -28 ![](http://www.whoshouldyouvotefor.com/tiny_grey_light.gif)
+</td>
+
+<td align="left" valign="middle" >
+</td>
+</tr>
+<tr >
+
+<td align="right" valign="middle" >
+</td>
+
+<td align="left" valign="middle" >![](http://www.whoshouldyouvotefor.com/tiny_grey_dark.gif) Liberal Democrat 46
+</td>
+</tr>
+<tr >
+
+<td align="right" valign="middle" >UK Independence Party -7 ![](http://www.whoshouldyouvotefor.com/tiny_grey_light.gif)
+</td>
+
+<td align="left" valign="middle" >
+</td>
+</tr>
+<tr >
+
+<td align="right" valign="middle" >
+</td>
+
+<td align="left" valign="middle" >![](http://www.whoshouldyouvotefor.com/tiny_grey_dark.gif) Green 33
+</td>
+</tr>
+</tbody></table>
+**You should vote: Liberal Democrat**
+
+The [LibDems](http://www.libdems.org.uk) take a strong stand against tax cuts and a strong one in favour of public services: they would make long-term residential care for the elderly free across the UK, and scrap university tuition fees. They are in favour of a ban on smoking in public places, but would relax laws on cannabis. They propose to change vehicle taxation to be based on usage rather than ownership.
+
+Take the test at [Who Should You Vote For](http://www.whoshouldyouvotefor.com)
