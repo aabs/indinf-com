@@ -1,12 +1,15 @@
 ---
 layout: post
-title:  "About Fishdots"
+title:  "Announcing Fishdots"
+categories: [fishdots, foss]
+tags: [announcement]
 ---
 
-# About Fishdots
+# Announcing Fishdots
 
-This is a little project, called **Fishdots**, I've been working on in my spare time, since I
-discovered the joys of Fish Shell.
+This is a little project, called **Fishdots**, I've been working on in my spare time. Since I
+discovered the joys of Fish Shell, I realised that my borrowed system based on
+holman's zsh dotfiles was not flexible or fishy enought for my liking.
 
 
 <!-- 
