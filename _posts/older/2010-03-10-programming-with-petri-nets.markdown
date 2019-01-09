@@ -38,7 +38,7 @@ Since 2008, I've been developing a cloud-based soft-phone product - Skype for ca
 
 The current automata models have worked out really well, yielding a massive dividend in reliability. That said, the way we used our DFAs is vulnerable to consistency errors without explicit protection. The vulnerability stems from our wish to factorise the state machines into orthogonal DFAs each modelling some independent aspect of the user’s session. We do it because it makes the state modeling more tractable.
 
-The issue with ‘factorising’ the state model is that having multiple _independent _DFAs increases the state space, allowing the system to legitimately assume invalid state combinations. We have a dozen state machines with an average of 8 states each. The total state space would be about $latex 8^{12}$ (about 69 billion) states. Practically all of those states are invalid, and it’s the job of the supporting architecture to ensure that invalid states are avoided. Naturally, one avoids invalid state combinations by accurately choosing the correct result state even in the face of faulty communications, hardware, user input and programmer errors. That’s no mean feat at the best of times, but especially hard in a real time event driven system hosted on a widely distributed hardware platform.
+The issue with ‘factorising’ the state model is that having multiple _independent _DFAs increases the state space, allowing the system to legitimately assume invalid state combinations. We have a dozen state machines with an average of 8 states each. The total state space would be about $$ 8^{12}$$ (about 69 billion) states. Practically all of those states are invalid, and it’s the job of the supporting architecture to ensure that invalid states are avoided. Naturally, one avoids invalid state combinations by accurately choosing the correct result state even in the face of faulty communications, hardware, user input and programmer errors. That’s no mean feat at the best of times, but especially hard in a real time event driven system hosted on a widely distributed hardware platform.
 
 After a couple of years, we’ve pretty much done that, but we had no assistance from the state models themselves. I want an automata based model that will _inherently _prevent invalid states but still be comprehensible to the telephony domain experts who produce the state models.
 
@@ -58,31 +58,31 @@ A Petri Net is a computational model, first and foremost, but importantly it is 
 
 [![](http://aabs.files.wordpress.com/2010/03/img1-e1267434652482.png)](http://aabs.files.wordpress.com/2010/03/img1.png)
 
-The edges of the graph can only be between places and transitions or vice versa. You can never draw an edge between two places or two transitions. In the example above $latex P_0$ is connected to $latex T_0 $ and $latex T_0$ is in turn connected to $latex P_1$.
+The edges of the graph can only be between places and transitions or vice versa. You can never draw an edge between two places or two transitions. In the example above $$ P_0$$ is connected to $$ T_0 $$ and $$ T_0$$ is in turn connected to $$ P_1$$.
 
-Each place can have one or more '_tokens_'. The interpretation of having a token depends on several factors. I prefer to interpret having a token as ‘making some assertion or condition’. For example - a token in $latex P_0$ might mean '_the user is on a call_'. The absence of the token means that the condition does not hold - the user is not on a call. You mark the token with one or more dots inside the place, like so:
+Each place can have one or more '_tokens_'. The interpretation of having a token depends on several factors. I prefer to interpret having a token as ‘making some assertion or condition’. For example - a token in $$ P_0$$ might mean '_the user is on a call_'. The absence of the token means that the condition does not hold - the user is not on a call. You mark the token with one or more dots inside the place, like so:
 
 [![](http://aabs.files.wordpress.com/2010/03/img21-e1267435371101.png)](http://aabs.files.wordpress.com/2010/03/img21-e1267435371101.png)
 
-A transition is _active _or _enabled_ if all places with edges leading _into _it have tokens. In this case $latex T_0$ is active because it has an input place ($latex P_0$) and $latex P_0$ has a token. There may be more than one input place to a transition.
+A transition is _active _or _enabled_ if all places with edges leading _into _it have tokens. In this case $$ T_0$$ is active because it has an input place ($$ P_0$$) and $$ P_0$$ has a token. There may be more than one input place to a transition.
 
 [![](http://aabs.files.wordpress.com/2010/03/img3.png)](http://aabs.files.wordpress.com/2010/03/img3.png)
 
-In this case $latex T_0$ is not enabled, because not all of its input places have tokens. $latex P_2$ is missing a token. If you interpret the petri net as sets of conditions, then $latex T_0$ can be interpreted as '$latex P_0$ and $latex P_2$'. If $latex P_2$ is the condition that the other end hung up, then $latex T_0$ can be interpreted as 'the user was on a call and the other end hung up'. It's a bit contrived, but you can see what I mean. If we placed a token in $latex P_2$, then $latex T_0$ would be enabled again.
+In this case $$ T_0$$ is not enabled, because not all of its input places have tokens. $$ P_2$$ is missing a token. If you interpret the petri net as sets of conditions, then $$ T_0$$ can be interpreted as '$$ P_0$$ and $$ P_2$$'. If $$ P_2$$ is the condition that the other end hung up, then $$ T_0$$ can be interpreted as 'the user was on a call and the other end hung up'. It's a bit contrived, but you can see what I mean. If we placed a token in $$ P_2$$, then $$ T_0$$ would be enabled again.
 
 The complete set of tokens in places is known as the '_marking_' of the Petri Net, and represents the current state of the system. Again, if you interpret it as a set of conditions, the markings represents the set of all things that you know to be true.
 
-When an active transition '_fires_', it takes one token from each of its input places and inserts one token in each of its output places. When the Petri Net fires, it performs a transition from one state to another. This can be thought of as representing the outcome of some computation or as the implication of what we know. If $latex P_1$ was something like 'we are playing the dial tone', then the whole above example can be interpreted as 'if we are on a call and the other end hung up then we should start to play the dial tone'.
+When an active transition '_fires_', it takes one token from each of its input places and inserts one token in each of its output places. When the Petri Net fires, it performs a transition from one state to another. This can be thought of as representing the outcome of some computation or as the implication of what we know. If $$ P_1$$ was something like 'we are playing the dial tone', then the whole above example can be interpreted as 'if we are on a call and the other end hung up then we should start to play the dial tone'.
 
 If we started with this
 
 [![](http://aabs.files.wordpress.com/2010/03/img4.png)](http://aabs.files.wordpress.com/2010/03/img4.png)
 
-then firing $latex T_0$ would lead to this marking
+then firing $$ T_0$$ would lead to this marking
 
 [![](http://aabs.files.wordpress.com/2010/03/img5.png)](http://aabs.files.wordpress.com/2010/03/img5.png)
 
-A transition can have multiple outgoing places as well. Imagine another place $latex P_3$, interpreted as 'we go back onto the ready queue'. Then this model represents the assertion that _if we're on a call and the other end hangs up then we start playing the dial tone and we go back onto the ready queue._
+A transition can have multiple outgoing places as well. Imagine another place $$ P_3$$, interpreted as 'we go back onto the ready queue'. Then this model represents the assertion that _if we're on a call and the other end hangs up then we start playing the dial tone and we go back onto the ready queue._
 
 [![](http://aabs.files.wordpress.com/2010/03/img6.png)](http://aabs.files.wordpress.com/2010/03/img6.png)
 
@@ -90,7 +90,7 @@ Clearly we have the ability to represent complex propositions using a petri net.
 
 [![](http://aabs.files.wordpress.com/2010/03/img7.png)](http://aabs.files.wordpress.com/2010/03/img7.png)
 
-The observant amongst you will immediately notice that $latex T_0$ will always be enabled under this marking and the tokens will continue to grow. There's a lot of techniques for analysing this kind of net and its properties. I can’t go into that topic here, but as with other software design, there are patterns and refactorings that can help to design a _safe_ and _conservative_ net.
+The observant amongst you will immediately notice that $$ T_0$$ will always be enabled under this marking and the tokens will continue to grow. There's a lot of techniques for analysing this kind of net and its properties. I can’t go into that topic here, but as with other software design, there are patterns and refactorings that can help to design a _safe_ and _conservative_ net.
 
 The arcs of the Petri Net can, and generally are, ‘_generalised’_ to represent the case of multiple arcs between a place and transition. Rather than muddle the model with many identical edges we can add a ‘_weight’_ to an arc. Whatever the weight is, is the number of tokens removed or added. Whatever the sum of the weights on the input arcs are is the number of tokens that must be present in the input places for a transition to be active. Likewise, the output arcs of a transition can have weights signifying how many token they add to their output places.
 
