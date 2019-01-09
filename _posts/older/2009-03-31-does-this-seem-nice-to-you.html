@@ -1,0 +1,43 @@
+---
+layout: post
+title: Does this seem nice to you?
+date: 2009-03-31 15:58:49.000000000 +11:00
+type: post
+published: true
+status: publish
+categories:
+- .NET
+- humour
+- programming
+tags: []
+meta:
+  _edit_last: '154469'
+author:
+  login: aabs
+  email: matthews.andrew@gmail.com
+  display_name: Andrew Matthews
+  first_name: Andrew
+  last_name: Matthews
+---
+<p>After years of recoiling at the sight of code like this, am I supposed now to embrace it in a spirit of reconciliation?</p>
+<pre class="code"><span style="color:blue;">namespace </span>ConsoleApplication1
+{
+    <span style="color:blue;">class </span><span style="color:#2b91af;">Program
+    </span>{
+        <span style="color:blue;">static void </span>Main(<span style="color:blue;">string</span>[] args)
+        {
+            <span style="color:blue;">dynamic </span>blah = GetTheBlah();
+            <span style="color:#2b91af;">Console</span>.WriteLine(blah);
+        }
+
+        <span style="color:blue;">private static dynamic </span>GetTheBlah()
+        {
+            <span style="color:blue;">if </span>(<span style="color:#2b91af;">DateTime</span>.Now.Millisecond % 3 == 0)
+                <span style="color:blue;">return </span>0;
+            <span style="color:blue;">else
+                return </span><span style="color:#a31515;">&quot;hello world!&quot;</span>;
+        }
+    }
+}</pre>
+<p><a href="http://11011.net/software/vspaste"></a></p>
+<p>need to wash my hands.</p>

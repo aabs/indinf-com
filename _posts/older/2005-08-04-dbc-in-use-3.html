@@ -1,0 +1,99 @@
+---
+layout: post
+title: DBC in use
+date: 2005-08-04 20:13:00.000000000 +10:00
+type: post
+published: true
+status: publish
+categories:
+- SemanticWeb
+tags:
+- DBC
+meta: {}
+author:
+  login: aabs
+  email: matthews.andrew@gmail.com
+  display_name: Andrew Matthews
+  first_name: Andrew
+  last_name: Matthews
+---
+<p>I am finally getting around to making use of Aabs.Dbc in my new open source porject Aabs.Norm. I figured that the best proving ground for a thing like this is a thing like that. That is, a highly complex, high performance application framework, that maintains a state in a variety of very complex ways, that uses polymorphism and .NET in sophisticated ways, and that will be adversely affected if the performance of Aabs.Dbc is poor at runtime.</p>
+<p>Here's an example of the interface to the core object - the Persistence Broker.</p>
+<p>[sourcecode language='csharp']namespace Aabs.Norm.Core</p>
+<p>{</p>
+<p>    public interface IPersistenceBroker</p>
+<p>    {</p>
+<p>            [Requires("criteria != null")]</p>
+<p>        PersistentObject RetrieveObject(Criteria criteria);</p>
+<p>            [Requires("persistentObject != null")]</p>
+<p>            [Ensures("$before(persistentObject) ==</p>
+<p>                $after(persistentObject)")]</p>
+<p>            [Ensures("persistentObject.IsPersistent == true")]</p>
+<p>            [Ensures("(persistentObject.TimeStamp - DateTime.Now) < new TimeSpan($time_ms)")]</p>
+<p>            [Ensures("$result != null")]</p>
+<p>            [Ensures("$result.Count == 0")]</p>
+<p>        IList SaveObject(PersistentObject persistentObject);</p>
+<p>            [Requires("persistentObject != null")]</p>
+<p>            [Ensures("$before(persistentObject) ==</p>
+<p>              $after(persistentObject)")]</p>
+<p>            [Ensures("$result != null")]</p>
+<p>            [Ensures("$result.Count == 0")]</p>
+<p>            [Ensures("persistentObject.IsPersistent == false")]</p>
+<p>        IList DeleteObject(PersistentObject persistentObject);</p>
+<p>            [Requires("criteria != null")]</p>
+<p>            [Requires("criteria.ForClass != null")]</p>
+<p>            [Ensures("$result != null")]</p>
+<p>            [Ensures("$result.Count >= 0")]</p>
+<p>        IList ProcessCriteria(Criteria criteria);</p>
+<p>            [Requires("persistentObject != null")]</p>
+<p>            [Ensures("$before(persistentObject) ==</p>
+<p>              $after(persistentObject)")]</p>
+<p>            [Ensures("$result != null")]</p>
+<p>            [Ensures("$result.Name != persistentObject.</p>
+<p>                GetType().Name")]</p>
+<p>        ClassMap GetClassMapFor(PersistentObject persistentObject);</p>
+<p>            [Requires("tableMap != null")]</p>
+<p>            [Ensures("$result != null")]</p>
+<p>            [Ensures("$result.Count >= 0")]</p>
+<p>        IList GetReferrersTo(TableMap tableMap);</p>
+<p>            [Requires("persistentObject != null")]</p>
+<p>            [Ensures("$result != null")]</p>
+<p>            [Ensures("$result.Count >= 0")]</p>
+<p>        IList GetLinkedClassMaps(PersistentObject persistentObject);</p>
+<p>            [Requires("classMap != null")]</p>
+<p>            [Ensures("$result != null")]</p>
+<p>            [Ensures("$result.Count >= 0")]</p>
+<p>        IList GetLinkedClassMaps(ClassMap classMap);</p>
+<p>            [Requires("classMap != null")]</p>
+<p>            [Requires("propertyName != null")]</p>
+<p>            [Requires("propertyName.Length > 0")]</p>
+<p>            [Ensures("$result != null")]</p>
+<p>            [Ensures("$result.Count >= 0")]</p>
+<p>        IList IncomingConnectionsToAttribute(ClassMap classMap,</p>
+<p>           string propertyName);</p>
+<p>            [Requires("procedureName != null")]</p>
+<p>            [Requires("procedureName.Length > 0")]</p>
+<p>            [Requires("type != null")]</p>
+<p>            [Requires("databaseName != null")]</p>
+<p>            [Requires("databaseName.Length > 0")]</p>
+<p>            [Requires("parameters != null")]</p>
+<p>            [Requires("parameters.Count >= 0")]</p>
+<p>            [Ensures("$result != null")]</p>
+<p>            [Ensures("$result.Count >= 0")]</p>
+<p>        IList ProcessStoredProcedure(string procedureName,</p>
+<p>            Type type, string databaseName,</p>
+<p>            NameValueCollection parameters);</p>
+<p>            [Requires("procedureName != null")]</p>
+<p>            [Requires("procedureName.Length > 0")]</p>
+<p>            [Requires("type != null")]</p>
+<p>            [Requires("databaseName != null")]</p>
+<p>            [Requires("databaseName.Length > 0")]</p>
+<p>            [Requires("parameters != null")]</p>
+<p>            [Requires("parameters.Count >= 0")]</p>
+<p>            [Ensures("$result != null")]</p>
+<p>        string ProcessStoredProcedureRaw(string procedureName,</p>
+<p>            Type type, string databaseName,</p>
+<p>            NameValueCollection parameters);</p>
+<p>        bool ProcessTransaction();</p>
+<p>    }</p>
+<p>}[/sourcecode]</p>

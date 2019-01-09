@@ -1,0 +1,105 @@
+---
+layout: post
+title: A Simple Interface to TimerCallback
+date: 2006-08-31 05:56:06.000000000 +10:00
+type: post
+published: true
+status: publish
+categories: []
+tags:
+- programming
+meta: {}
+author:
+  login: aabs
+  email: matthews.andrew@gmail.com
+  display_name: Andrew Matthews
+  first_name: Andrew
+  last_name: Matthews
+---
+<p>It's been a while since I last blogged. I moved to <a href="http://www.readify.net">Readify</a>, and have been burning the midnight oil ever since! But I wrote some code the other day that I thought might come in handy in future, so I thought I'd blog it.</p>
+<p>What I needed to do was kick off a few activities that run periodically in their own thread. As ever, I started out by writing code to manage signaling to between the main thread and the worker thread with sleep periods when there was nothing to do, till it was time to start again. Needless to say, it all got very repetitive and messy. So I rewrote it focusing on making the developer work as simple as possible, with no repetitions.</p>
+<p>Here's how it works. I define an interface called <span>ITimerActivity</span> which has a single method returning a <span>void</span> and taking an <span>object</span>. The <span>TaskHandler</span> method matches the delegate expected by the <span>TimerCallback</span> constructor. Your worker function implements this method, to perform the activity you want run, and the <span>TimerHandler</span> class passes your <span>TaskHandler</span> method as a delegate to the <span>TimerCallback</span> method. It then manages the timer using a simpler mechanism of <span>Start</span> and <span>Stop</span>. So, all you need to do to make use of timers is to implement thus <span>ITimerActivity</span> interface and use it inside a <span>TimerHandler</span>.<br />
+ </p>
+<p><span></span><span></span><span>public </span><span>interface </span><span>ITimerActivity<br />
+</span>{</p>
+<p><span>void</span> TaskHandler( <span>object</span> obj );</p>
+<p>}</p>
+<p>Here is a test class that will periodically write out a debug string</p>
+<p><span></span><span></span><span>public </span><span>class </span><span>TestActivity</span> : <span>ITimerActivity<br />
+</span></p>
+<p>{</p>
+<p><span>private</span> <span>readonly</span> <span>string</span> msg;</p>
+<p><span></span><span></span><span>public</span> TestActivity(<span>string</span> msg)</p>
+<p>{</p>
+<p><span>this</span>.msg = msg;</p>
+<p>}</p>
+<p><span></span><span></span><span>public </span><span>void</span> TaskHandler( <span>object</span> obj )</p>
+<p>{</p>
+<p><span>Debug</span>.WriteLine( <span>"Timer called: "</span> + msg );</p>
+<p>}</p>
+<p>}</p>
+<p>To handle starting and stopping the timer, and to control how often it is run I defined the TimerHandler class, which is a generic class that takes objects implementing the ITimerActivity interface. A simple constructor function with the task, the time to start and the frequency of invocation allows the timer to be initiated without recourse to any grizzly details</p>
+<p><span></span><span></span><span>public </span><span>class </span><span>TimerHandler</span>&lt;Task&gt; <span>where</span> Task : <span>ITimerActivity </span>{</p>
+<p><span>#region</span> properties</p>
+<p><span></span><span></span><span>public </span><span>Timer</span> Timer {</p>
+<p><span>get</span> { <span>return</span> theTimer; }</p>
+<p><span>set</span> { theTimer = <span>value</span>; }</p>
+<p>}</p>
+<p><span></span><span></span><span>public</span> Task TheTask  {</p>
+<p><span>get</span> { <span>return</span> theTaskField; }</p>
+<p><span>set</span> { theTaskField = <span>value</span>; }</p>
+<p>}</p>
+<p><span></span><span></span><span>public </span><span>bool</span> IsRunning {</p>
+<p><span>get</span> { <span>return</span> taskIsRunning; }</p>
+<p><span>set</span> { taskIsRunning = <span>value</span>; }</p>
+<p>}</p>
+<p><span></span><span></span><span>public </span><span>long</span> MillisecondsTillInitialActivation {</p>
+<p><span>get</span> { <span>return</span> taskMillisecondsTillInitialActivation; }</p>
+<p><span>set</span> { taskMillisecondsTillInitialActivation = <span>value</span>; }</p>
+<p>}</p>
+<p><span></span><span></span><span>public </span><span>long</span> MillisecondsBetweenInvocations {</p>
+<p><span>get</span> { <span>return</span> taskMillisecondsBetweenInvocations; }</p>
+<p><span>set</span> { taskMillisecondsBetweenInvocations = <span>value</span>; }</p>
+<p>}</p>
+<p><span>#endregion<br />
+</span></p>
+<p><span></span><span>#region</span> fields</p>
+<p><span></span><span></span><span>protected </span><span>Timer</span> theTimer;</p>
+<p><span>protected</span> Task theTaskField;</p>
+<p><span>protected </span><span>bool</span> taskIsRunning = <span>false</span>;</p>
+<p><span>protected </span><span>long</span> taskMillisecondsTillInitialActivation = 0;</p>
+<p><span>protected </span><span>long</span> taskMillisecondsBetweenInvocations = 0;</p>
+<p><span>#endregion<br />
+</span></p>
+<p><span></span><span></span><span>public</span> TimerHandler( Task task, <span>long</span> millisecondsTillInitialActivation,<br />
+                          <span>long</span> millisecondsBetweenInvocations ) {</p>
+<p><span>this</span>.theTaskField = task;</p>
+<p><span>this</span>.taskMillisecondsTillInitialActivation = millisecondsTillInitialActivation;</p>
+<p><span>this</span>.taskMillisecondsBetweenInvocations = millisecondsBetweenInvocations;</p>
+<p>theTimer = CreateTimer();</p>
+<p>}</p>
+<p><span></span><span></span><span>public </span><span>void</span> Start() {</p>
+<p>theTimer.Change( taskMillisecondsTillInitialActivation, taskMillisecondsBetweenInvocations );</p>
+<p>taskIsRunning = <span>true</span>;</p>
+<p>}</p>
+<p><span></span><span></span><span>private </span><span>Timer</span> CreateTimer() {</p>
+<p><span>return </span><span>new </span><span>Timer</span>( <span>new </span><span>TimerCallback</span>( theTaskField.TaskHandler ), <span>this</span>,<br />
+          <span>Timeout</span>.Infinite, taskMillisecondsBetweenInvocations );</p>
+<p>}</p>
+<p><span></span><span></span><span>public </span><span>void</span> Stop()  {</p>
+<p>theTimer.Change( <span>Timeout</span>.Infinite, taskMillisecondsBetweenInvocations );</p>
+<p>taskIsRunning = <span>false</span>;</p>
+<p>}</p>
+<p>}</p>
+<p>So a typical invocation might look like this:</p>
+<p><span></span><span></span><span>// start at midnight tonight<br />
+</span><span>long</span> start = DateTime.Today.AddDays(<span>1</span>)<br />
+    .Subtract(DateTime.Now).Milliseconds;</p>
+<p><span>// run every thirty minutes</span><br />
+<span>long</span> freq = TimeSpan.FromMinutes( <span>30</span> ).Milliseconds;</p>
+<p>TimerHandler&lt;TestActivity&gt; Test =<br />
+    <span>new</span> TimerHandler&lt;TestActivity&gt;(<span>new</span> TestActivity (<span>"Hello World"</span>), start, freq);</p>
+<p>SpellChecker.Start();</p>
+<p><span></span><span>// ...</span></p>
+<p><span>SpellChecker.Stop();<br />
+</span></p>

@@ -1,0 +1,42 @@
+---
+layout: post
+title: Converting Jena to .NET
+date: 2007-03-23 23:51:55.000000000 +11:00
+type: post
+published: true
+status: publish
+categories: []
+tags:
+- artificial intelligence
+- cool
+- programming
+meta: {}
+author:
+  login: aabs
+  email: matthews.andrew@gmail.com
+  display_name: Andrew Matthews
+  first_name: Andrew
+  last_name: Matthews
+---
+<p>I spent most of my evening converting <a href="http://jena.sf.net">Jena </a>to .NET. Needless to say it was only at the end of the evening that I discovered that Andy Seabourne (from my old home town of Bristol) had already worked out how to use <a href="http://www.ikvm.net">IKVM </a>to <a href="http://seaborne.blogspot.com/2006/02/progress-with-jenanet.html">convert </a>the jar files into assemblies. I'm not bothered though; I produced make files (rather than shell scripts) that work better on cygwin. The best thing I got from Andy was his "<em>don't worry be happy</em>" advice that IKVM spuriously complains about unfound classes - you don't need to worry about it. Once I read that, I realised that I had successfully converted Jena about 4 hours earlier, and all my fiddling about trying to get the right pattern of dependencies was completely unnecessary - IKVM just works! (and rocks)</p>
+<p>Had I realised just how easy it was to convert bytecode to IL, I might have gone trawling the apache <a href="http://jakarta.apache.org/">jakarta </a>project more often over the last few years. (sigh) Never mind - I now have the tools for working on semantic web applications in .NET. Yayyyy!!!! I don't have to learn Python either. I'm not sure whether I'm sad about that.</p>
+<p>I don't have a place handy to put the assemblies, and wordpress won't allow me to upload them, so I'll do the next best thing and give you the make file. It assumes that you are using cygwin or something similar. If you aren't just use the conventional windows path structure for ikvmdir. It also is based on Jena version 2.5.2.<!--more--><br />
+<code><br />
+ikvmdir = /mnt/c/etc/ikvm<br />
+cc = $(ikvmdir)/ikvmc.exe<br />
+options = -target:library<br />
+libs = antlr-2.7.5.jar xml-apis.jar \<br />
+wstx-asl-3.0.0.jar commons-logging-1.1.jar \<br />
+xercesImpl.jar json.jar concurrent.jar junit.jar \<br />
+lucene-core-2.0.0.jar</p>
+<p>jars = jena.jar jenatest.jar iri.jar arq.jar arq-extra.jar</code><code> </code><code>all: jena.dll sparql.exe</p>
+<p>jena.dll : jena-libs.dll<br />
+  $(cc) $(jars) $(options) -reference:jena-libs.dll -out:jena.dll</p>
+<p>jena-libs.dll:<br />
+  $(cc) $(libs) $(options) -out:jena-libs.dll</p>
+<p>sparql.exe:<br />
+  $(cc) $(libs) $(jars) -target:exe -main:arq.sparql -out:sparql.exe</p>
+<p>clean:<br />
+  rm -rf *.dll</p>
+<p>rebuild: clean all<br />
+</code></p>

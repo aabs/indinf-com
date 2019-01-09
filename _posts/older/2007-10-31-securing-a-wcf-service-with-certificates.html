@@ -1,0 +1,87 @@
+---
+layout: post
+title: Securing a WCF service with Certificates
+date: 2007-10-31 15:03:38.000000000 +11:00
+type: post
+published: true
+status: publish
+categories:
+- programming
+- WCF
+tags: []
+meta:
+  delicious: a:3:{s:5:"count";i:0;s:9:"post_tags";s:0:"";s:4:"time";i:1352632157;}
+  reddit: a:2:{s:5:"count";i:0;s:4:"time";i:1352632146;}
+  _oembed_d0177982a280852133418ca9c44b7a46: '{{unknown}}'
+  _oembed_5fba4a84d0dd4128dfa0f4fb8918eba3: '{{unknown}}'
+  twitter_cards_summary_img_size: a:6:{i:0;i:428;i:1;i:303;i:2;i:3;i:3;s:24:"width="428"
+    height="303"";s:4:"bits";i:8;s:4:"mime";s:9:"image/png";}
+author:
+  login: aabs
+  email: matthews.andrew@gmail.com
+  display_name: Andrew Matthews
+  first_name: Andrew
+  last_name: Matthews
+---
+<p>For a client and server to talk securely with message level encryption, they both require certificates to encrypt and decrypt messages from the other. Those certificates need to be produced and installed on each machine. This post shows how that can be done, and what settings are required to work with the certificates. Thanks to Mitch Denny, who wrote a <a href="http://notgartner.wordpress.com/2007/09/06/using-certificate-based-authentication-and-protection-with-windows-communication-foundation-wcf/" target="_blank">very good post</a> on the use of certificates, which helped a lot more than some of the official documentation. This post assumes that you're using Juval Lowy of IDesign's <a href="http://idesign.net/idesign/DesktopDefault.aspx?tabindex=5&amp;tabid=11" target="_blank">ServiceModelEx</a> extensions for WCF. If you're not, you should really consider these additions - they add declarative security and better validation amongst many other enhancements. </p>
+<p>First you need to create a certificate for both the client and the server. Most examples demonstrate the scenario on a single machine thus glossing over the fact that in that situation you only need the one certificate. It obscures the real process of certificate exchange which I’ll show here. </p>
+<p>The following is a little script (called setupcert.cmd) that will create a new certificate using makecert.exe, will add it to the ‘My’ cert store on the location machine hive of the registry. It will then export that cert for use on the other machine.<br />
+<blockquote>
+<pre>set CERT_NAME=%1
+certmgr.exe -del -r LocalMachine -s My -c -n %CERT_NAME%
+makecert.exe -sr LocalMachine -ss MY -a sha1 -n CN=%CERT_NAME% -sky exchange -pe
+certmgr.exe /put /c /r LocalMachine /n %CERT_NAME% /s my %CERT_NAME%.publickey.cer</pre>
+<p><a href="http://11011.net/software/vspaste"></a></p>
+</blockquote>
+<p>You pass one parameter to the script, which is the common name you want to give to the certificate. For instance, you could call it “ServerSide” or “ClientSide”.</p>
+<p>Run the script on the client side.</p>
+<blockquote>
+<p>setupcert ClientSide</p>
+</blockquote>
+<p>You should now have a file in the current directory called ClientSide.publickey.cer. Copy this file over to the server side. You are now be able to install the client side cert on the server side.</p>
+<p>Double click on the client side cert file. You should get a warning about the unknown provenance of the cert.</p>
+<p><a href="http://aabs.files.wordpress.com/2007/10/image1.png"><img style="border-right:0;border-top:0;border-left:0;border-bottom:0;" height="303" alt="image" src="{{ site.baseurl }}/assets/image-thumb1.png" width="428" /></a></p>
+<p>Click the Open button. Then click on the ‘Install Certificate…’ button.</p>
+<p><a href="http://aabs.files.wordpress.com/2007/10/image2.png"><img style="border-right:0;border-top:0;border-left:0;border-bottom:0;" height="368" alt="image" src="{{ site.baseurl }}/assets/image-thumb2.png" width="300" /></a></p>
+<p>You should now be running the certificate install wizard (or equivalent).</p>
+<p><a href="http://aabs.files.wordpress.com/2007/10/image3.png"><img style="border-right:0;border-top:0;border-left:0;border-bottom:0;" height="324" alt="image" src="{{ site.baseurl }}/assets/image-thumb3.png" width="364" /></a></p>
+<p>Click Next. On the next page select to place the certificate in the store of your choice. A dialog box appears with the cert stores available. Check the ‘Show Physical Stores’ checkbox like so. Click OK to proceed.</p>
+<p><a href="http://aabs.files.wordpress.com/2007/10/image4.png"><img style="border-right:0;border-top:0;border-left:0;border-bottom:0;" height="345" alt="image" src="{{ site.baseurl }}/assets/image-thumb4.png" width="480" /></a></p>
+<p>You will now get the confirmation window.</p>
+<p><a href="http://aabs.files.wordpress.com/2007/10/image5.png"><img style="border-right:0;border-top:0;border-left:0;border-bottom:0;" height="355" alt="image" src="{{ site.baseurl }}/assets/image-thumb5.png" width="392" /></a></p>
+<p>Click Finish to complete the import. If all goes well you get this.</p>
+<p><a href="http://aabs.files.wordpress.com/2007/10/image6.png"><img style="border-right:0;border-top:0;border-left:0;border-bottom:0;" height="191" alt="image" src="{{ site.baseurl }}/assets/image-thumb6.png" width="285" /></a>&nbsp; </p>
+<p>At this stage we have a certificate installed on the client side called ClientSide. This certificate was copied to the server side and installed in the LocalMachine trusted people store. Now the reverse has to be done. Go to the server side and invoke the script from there.</p>
+<blockquote>
+<p>setupcert ServerSide</p>
+</blockquote>
+<p>copy ServerSide.publickey.cer to the client side, and from there you should repeat the import procedure outlined above. The certificates should now be configured. To confirm that, open mmc.exe and add a certificates snap-in for the local machine. On the client side you should see the ClientSide certificate in the personal certificates store.</p>
+<p><a href="http://aabs.files.wordpress.com/2007/10/image7.png"><img style="border-right:0;border-top:0;border-left:0;border-bottom:0;" height="289" alt="image" src="{{ site.baseurl }}/assets/image-thumb7.png" width="272" /></a></p>
+<p>In the Trusted People certificates you should see the server side certificate.</p>
+<p><a href="http://aabs.files.wordpress.com/2007/10/image8.png"><img style="border-right:0;border-top:0;border-left:0;border-bottom:0;" height="289" alt="image" src="{{ site.baseurl }}/assets/image-thumb8.png" width="272" /></a></p>
+<p>The reverse should be true for the Server side certificate stores.</p>
+<h3>Configuring the service endpoints</h3></p>
+<p>The client side proxy needs to reference its certificate like so.</p>
+<blockquote><pre><span style="color:rgb(43,145,175);">ServiceProxy</span> proxy = <span style="color:rgb(0,0,255);">new</span> <span style="color:rgb(43,145,175);">ServiceProxy</span>();
+<span style="color:rgb(43,145,175);">SecurityHelper</span>.SecureProxy&lt;<span style="color:rgb(43,145,175);">IMyService</span>&gt;(proxy, <span style="color:rgb(163,21,21);">"ClientSide"</span>);
+</pre>
+<p><a href="http://11011.net/software/vspaste"></a></p></blockquote>
+<p>And it can reference the server side certificate via the configuration settings.
+<pre><span style="color:rgb(0,0,255);">        &lt;</span><span style="color:rgb(163,21,21);">endpoint</span><span style="color:rgb(0,0,255);"> 
+          </span><span style="color:rgb(255,0,0);">address</span><span style="color:rgb(0,0,255);">=</span>"<span style="color:rgb(0,0,255);">http://nitrogen:8001/MyService</span>"<span style="color:rgb(0,0,255);"> 
+          </span><span style="color:rgb(255,0,0);">binding</span><span style="color:rgb(0,0,255);">=</span>"<span style="color:rgb(0,0,255);">wsHttpBinding</span>"<span style="color:rgb(0,0,255);"> 
+          </span><span style="color:rgb(255,0,0);">contract</span><span style="color:rgb(0,0,255);">=</span>"<span style="color:rgb(0,0,255);">SandlNtSvc.IMyService</span>"<span style="color:rgb(0,0,255);">&gt;
+          &lt;</span><span style="color:rgb(163,21,21);">identity</span><span style="color:rgb(0,0,255);">&gt;
+            &lt;</span><span style="color:rgb(163,21,21);">dns</span><span style="color:rgb(0,0,255);"> </span><span style="color:rgb(255,0,0);">value</span><span style="color:rgb(0,0,255);">=</span>"<span style="color:rgb(0,0,255);">ServerSide</span>"<span style="color:rgb(0,0,255);"> /&gt;
+          &lt;/</span><span style="color:rgb(163,21,21);">identity</span><span style="color:rgb(0,0,255);">&gt;
+        &lt;/</span><span style="color:rgb(163,21,21);">endpoint</span><span style="color:rgb(0,0,255);">&gt;
+</span></pre>
+<p><a href="http://11011.net/software/vspaste"></a></p>
+<p>The server side references its certificate via its security behavior attribute.
+<pre>    [<span style="color:rgb(43,145,175);">SecurityBehavior</span>(<span style="color:rgb(43,145,175);">ServiceSecurity</span>.Anonymous, <span style="color:rgb(163,21,21);">"ServerSide"</span>)] 
+    <span style="color:rgb(0,0,255);">public</span> <span style="color:rgb(0,0,255);">class</span> <span style="color:rgb(43,145,175);">MyService</span> : <span style="color:rgb(43,145,175);">IMyService
+</span>    {
+</pre>
+<p><a href="http://11011.net/software/vspaste"></a></p>
+<p>That's all the configuration needed for the service and proxy to talk to each other.</p>
+<p>PS. remember to delete any cert files left lying around!</p>

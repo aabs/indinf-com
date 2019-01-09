@@ -1,0 +1,40 @@
+---
+layout: post
+title: Using Task Scheduler For GTD with OneNote 2007
+date: 2008-02-12 08:37:10.000000000 +11:00
+type: post
+published: true
+status: publish
+categories:
+- SemanticWeb
+tags: []
+meta:
+  delicious: a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1337868732";}
+  reddit: a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1337868734";}
+author:
+  login: aabs
+  email: matthews.andrew@gmail.com
+  display_name: Andrew Matthews
+  first_name: Andrew
+  last_name: Matthews
+---
+<p><a href="http://aymeric.gaurat.net/" target="_blank">Aymeric Gaurat-Apelli</a>, against my will, has got me hooked on using OneNote, and like many people I started using it for organisation with <a href="http://www.google.com.au/url?sa=t&amp;ct=res&amp;cd=1&amp;url=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGetting_Things_Done&amp;ei=SMmwR-ngHqTIswKI0qnwCQ&amp;usg=AFQjCNHi9227WDd1uvPMy9kZTRrMcKJIxA&amp;sig2=k1UKesK9RZVMxE_zsdAEXA" target="_blank">GTD</a>. I set up my OneNote the way that Rob from <a href="http://www.blog.7breaths.co.uk" target="_blank">7Breaths</a> described in his <a href="http://www.blog.7breaths.co.uk/2007/04/gtd-with-onenote-set-up.html" target="_blank">great blog series</a>. But I found that I still need a little prompting from time to time. So I found a neat way to shove OneNote in my face at the beginning and end of every day to 'gently' persuade me to gather and process my tasks for the day.</p>
+<p>If you've got your OneNote set up according to Rob's method, you'll have a TODAY section, and in that you'll gather your daily notes, clippings etc for later processing and organisation. I just added a couple of pages and then I invoke them at preset times of the day. Here's how you do it.</p>
+<p>First Create your page in the TODAY section. It doesn't matter what you call it. I called mine the "<i>Brain Dump Area</i>":</p>
+<p><a href="http://aabs.files.wordpress.com/2008/02/image.png"><img src="{{ site.baseurl }}/assets/image-thumb.png" style="border-width:0;" alt="image" height="414" width="570" /></a></p>
+<p>See what I mean about gentle? Next I create a scheduled task using the (for Vista) Task Scheduler. You'll find this in your admin tools menu off the start menu:</p>
+<p><a href="http://aabs.files.wordpress.com/2008/02/image1.png"><img src="{{ site.baseurl }}/assets/image-thumb1.png" style="border-width:0;" alt="image" height="128" width="426" /></a></p>
+<p>in the task pane, select "Create Basic Task"</p>
+<p><a href="http://aabs.files.wordpress.com/2008/02/image2.png"><img src="{{ site.baseurl }}/assets/image-thumb2.png" style="border-width:0;" alt="image" height="197" width="272" /></a></p>
+<p>Give it a name</p>
+<p><a href="http://aabs.files.wordpress.com/2008/02/image3.png"><img src="{{ site.baseurl }}/assets/image-thumb3.png" style="border-width:0;" alt="image" height="496" width="714" /></a></p>
+<p>Select a daily task, run on whatever schedule you like, then click through to actions, and select the "Start a Program" option</p>
+<p><a href="http://aabs.files.wordpress.com/2008/02/image4.png"><img src="{{ site.baseurl }}/assets/image-thumb4.png" style="border-width:0;" alt="image" height="92" width="334" /></a></p>
+<p>You'll be presented with an option to enter the program location, some command line arguments and an optional area to select where the program gets run. Locate your instance of OneNote (mine's at "C:\Program Files\Microsoft Office\Office12\ONENOTE.EXE") and enter its path in the program area. Then go to OneNote and navigate to the page you created, and right click on the page tab. Select the "Copy Hyperlink to this Page" option, and then go back to Task Scheduler.</p>
+<p><a href="http://aabs.files.wordpress.com/2008/02/image5.png"><img src="{{ site.baseurl }}/assets/image-thumb5.png" style="border-width:0;" alt="image" height="230" width="296" /></a></p>
+<p>In the "Add Arguments (optional):" text box enter: <b>/hyperlink "" </b>and between the quotes paste the hyperlink from the page you created in OneNote. Mine looked like this:</p>
+<p><b>/hyperlink "onenote://C:/Users/Andrew%20Matthews/Documents/OneNote%20Notebooks/GettingThingsDone/<br />
+TODAY.one#Brain%20Dump%20Area&amp;section-id={DD18A524-CB73-47D9-A152-778C2116DA01}&amp;<br />
+page-id={0F370401-83D6-4BB3-B2CC-7266A16395B7}&amp;end"</b></p>
+<p>Yours will be different, but similar. Click through to the finish button, and you're done. If you right click on the task entry and select Run, you can see what it will do. It starts OneNote selecting the Brain Dump Page for immediate display.</p>
+<p>Now all I have to do is resist the urge to hit Snooze, and I'll be really organised.</p>

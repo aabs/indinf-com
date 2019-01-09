@@ -1,0 +1,29 @@
+---
+layout: post
+title: Temporary logging in VS.NET 2008 using Tracepoints
+date: 2007-12-14 11:45:42.000000000 +11:00
+type: post
+published: true
+status: publish
+categories:
+- programming
+tags: []
+meta:
+  delicious: a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1325628309";}
+  reddit: a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1325628310";}
+author:
+  login: aabs
+  email: matthews.andrew@gmail.com
+  display_name: Andrew Matthews
+  first_name: Andrew
+  last_name: Matthews
+---
+<p>I'm not sure whether this feature existed before VS.NET 2008 - it may even be common knowledge that has just passed me by. But I think it's just as cool as hell!</p>
+<p>In a source file if you create a breakpoint, you get offered a 'When Hit...' menu option.</p>
+<p><a href="http://aabs.files.wordpress.com/2007/12/image.png"><img src="{{ site.baseurl }}/assets/image-thumb.png" style="border:0 none;" alt="image" height="210" width="205" /></a></p>
+<p>When you click on that you get the following dialog box allowing you to create a breakpoint that does debug window logging!</p>
+<p><a href="http://aabs.files.wordpress.com/2007/12/image1.png"><img src="{{ site.baseurl }}/assets/image-thumb1.png" style="border:0 none;" alt="image" height="426" width="508" /></a></p>
+<p>you can get temporary (and very detailed) logging by selecting the 'Print a message' checkbox. You also have the option to run a Macro</p>
+<p><a href="http://aabs.files.wordpress.com/2007/12/image2.png"><img src="{{ site.baseurl }}/assets/image-thumb2.png" style="border:0 none;" alt="image" height="519" width="490" /></a></p>
+<p>There's no limit to what you could do with this lot. And the beauty of it is that you don't have to litter your code with unnecessary logging statements (especially in JS) unless you want to. So if you're performing diagnostics on a problem function, you can add these tracepoints and get lots of info, and then with a Ctl-Sh-F9 you can remove them all without having to recompile.</p>
+<p>Nice. You can also add it from the context menu under the breakpoint menu option as 'insert a tracepoint'</p>

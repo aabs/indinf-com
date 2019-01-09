@@ -1,0 +1,60 @@
+---
+layout: post
+title: Not another mapping markup language!
+date: 2008-08-27 14:03:14.000000000 +10:00
+type: post
+published: true
+status: publish
+categories:
+- .NET
+- programming
+- Semantic Web
+- SemanticWeb
+tags:
+- C#
+- databases
+- Java
+- LINQ
+- LinqToRdf
+- mapping
+- mashups
+- ORM
+- RDB2RDF
+- Semantic Web
+- SemanticWeb
+- semweb
+- web3.0
+meta:
+  _edit_last: '154469'
+  delicious: a:3:{s:5:"count";s:1:"3";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1242492188";}
+  reddit: a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1242492194";}
+author:
+  login: aabs
+  email: matthews.andrew@gmail.com
+  display_name: Andrew Matthews
+  first_name: Andrew
+  last_name: Matthews
+---
+<p>Kingsley Idehen has again graciously given LinqToRdf some much needed <a href="http://kidehen.typepad.com/kingsley_idehens_typepad/2008/08/virtuoso-linked.html">link-love</a>. He mentioned it in a post that was primarily concerned with the issues of mapping between the ontology, relational and object domains. His assertion is that LinqtoRdf, being an offshoot of an ORM related initiative, is reversing the natural order of mappings. He believes that in the world of ORM systems, the emphasis should be in mapping from the relational to the object domain.</p>
+<p>I think that he has a point, but not for the reason he's putting forward. I think that the natural direction of mapping stems from the relative richness of the domains being mapped. The impedence mismatch between the relational and object domains stems from (1) the implicitness of meaning in the relationships of relational systems and (2) the representation of relationships and (3) type mismatches.</p>
+<p>If the object domain has great expressiveness and explicit meaning in relationships it has a 'larger' language than that expressible using relational databases. Relationships are still representable, but their meaning is implicit. For that reason you would have to confine your mappings to those that can be represented in the target (relational) domain. In that sense you get a priority inversion that forces the lowest common denominator language to control what gets mapped.</p>
+<p>The same form of inversion occurs between the ontological and object domains, only this time it is the object domain that is the lowest common denominator. OWL is able to represent such things as restriction classes and multiple inheritance and sub-properties that are hard or impossible to represent in languages like C# or Java. When I heard of the RDF2RDB working group at the W3C, I suggested (to thunderous silence) that they direct their attentions to coming up with a general purpose mapping ontology that could be used for performing any kind of mapping.</p>
+<p>I felt that it would have been extremely valuable to have a standard language for defining mappings. Just off the top of my head I can think of the following places where it would be useful:</p>
+<ol>
+<li>Object/Relational Mapping Systems (O/R or ORM)</li>
+<li>Ontology/Object Mappings (such as in LinqToRdf)</li>
+<li>Mashups (merging disparate data sources)</li>
+<li>Ontology Reconciliation - finding intersects between two sets of concepts</li>
+<li>Data cleansing</li>
+<li>General purpose data access layer automation</li>
+<li>Data export systems</li>
+<li>Synchronization Systems (i.e. keeping systems like CRM and AD in sync)</li>
+<li>mapping objects/tables onto UIs</li>
+<li>etc</li>
+</ol>
+<p>You can see that most of these are perennial real-world problems that programmers are ALWAYS having to contend with. Having a standard language (and API?) would really help with all of these cases.</p>
+<p>I think such an ontology would be a nice addition to OWL or RDF Schema, allowing a much richer definition of equivalence between classes (or groups or parts of classes). Right now one can define a one-to-one relationship using the owl:equivalentClass property. It's easy to imagine that two ontology designers might approach a domain from such orthogonal directions that they find it hard to define any conceptual overlap between entities in their ontologies. A much more complex language is required to allow the reconciliation of widely divergent models.</p>
+<p>I understand that by focusing their attentions on a single domain they increase their chances of success, but what the world needs from an organization like the W3C is the kind of abstract thinking that gave rise to RDF, not another mapping markup language!</p>
+<hr />
+<p>Here's a nice picture of how LinqToRdf interacts with Virtuoso (thanks to Kingsley's blog).</p>
+<p>[caption id="" align="aligncenter" width="770" caption="How LINQ uses LinqToRdf to talk to SPARQL stores"]<a href="http://kidehen.typepad.com/kingsley_idehens_typepad/2008/08/virtuoso-linked.html"><img alt="How LINQ uses LinqToRdf to talk to SPARQL stores" src="{{ site.baseurl }}/assets/linqtordf2.png" width="770" height="709" /></a>[/caption]</p>

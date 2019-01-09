@@ -1,0 +1,48 @@
+---
+layout: post
+title: Announcing LinqToRdf v0.6
+date: 2008-05-04 22:54:24.000000000 +10:00
+type: post
+published: true
+status: publish
+categories:
+- .NET
+- programming
+- Semantic Web
+tags:
+- .NET
+- C#
+- LinqToRdf
+- Semantic Web
+meta:
+  _edit_last: '154469'
+  delicious: a:3:{s:5:"count";s:1:"3";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1231675402";}
+  reddit: a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1231675402";}
+author:
+  login: aabs
+  email: matthews.andrew@gmail.com
+  display_name: Andrew Matthews
+  first_name: Andrew
+  last_name: Matthews
+---
+<p>I've just uploaded LinqToRdf v0.6 with improved designer support for Visual Studio .NET 2008.</p>
+<p>The release includes the following high-points:</p>
+<ul>
+<li>LinqToRdf Designer and VS.NET 2008 extension completely rewritten  </li>
+<li>LinqToRdf Installer now includes the installer of LinqToRdf Designer (at no extra cost)  </li>
+<li>Project and Item templates now installed as part of LinqToRdf Designer  </li>
+<li>Generated object and data properties now get their own EntitySet or EntityRef.  </li>
+<li>Generates LINQ to SQL-style DataContext objects to hide query creation. Much Cleaner. </li>
+</ul>
+<p>The user experience for LinqToRdf should be greatly improved in this release.&nbsp; I focussed on getting project and item templates set up that would allow you to either create a dedicated LinqToRdf project that would have all the assembly references set up for you, or to create a new LinqToRdf designer file, that would generate C# code based on the new Attribute model introduced a few versions back.</p>
+<p>The VS.NET extensions are not installed by default, instead they are created in the LinqToRdf directory. If you do install them, then you will find that visual studio will now have a LinqToRdf will have a new project type.</p>
+<p><a href="http://aabs.files.wordpress.com/2008/05/clip-image0015.png"><img style="border-right:0;border-top:0;border-left:0;border-bottom:0;" height="274" alt="clip_image001[5]" src="{{ site.baseurl }}/assets/clip-image0015-thumb.png" width="614" /></a> </p>
+<p>You also have the LinqToRdf designer file type, which has been around for a version or two: </p>
+<p><a href="http://aabs.files.wordpress.com/2008/05/image.png"><img style="border-right:0;border-top:0;border-left:0;border-bottom:0;" height="299" alt="image" src="{{ site.baseurl }}/assets/image-thumb.png" width="540" /></a>  </p>
+<p>The Solution view is like this: </p>
+<p><a href="http://aabs.files.wordpress.com/2008/05/clip-image0017.png"><img style="border-right:0;border-top:0;border-left:0;border-bottom:0;" height="180" alt="clip_image001[7]" src="{{ site.baseurl }}/assets/clip-image0017-thumb.png" width="236" /></a> </p>
+<p>The designer view is the same as ever: </p>
+<p><a href="http://aabs.files.wordpress.com/2008/05/clip-image0019.png"><img style="border-right:0;border-top:0;border-left:0;border-bottom:0;" height="457" alt="clip_image001[9]" src="{{ site.baseurl }}/assets/clip-image0019-thumb.png" width="576" /></a> </p>
+<p>Things are coming along, and the download stats for version 0.4 were actually quite healthy (at least i think they were) so I expect this version to be the most popular yet. </p>
+<p>Expect to see the lazy-loading relationship representation process fully documented in the coming days.</p>
+<p>Enjoy.</p>

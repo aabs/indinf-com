@@ -1,0 +1,62 @@
+---
+layout: post
+title: LinqToRdf - SPARQL Query Generation
+date: 2007-05-31 16:11:45.000000000 +10:00
+type: post
+published: true
+status: publish
+categories: []
+tags:
+- C#
+- LINQ
+- programming
+meta:
+  _oembed_2b4bf565e6547cb0f351fbcb2d8db911: '{{unknown}}'
+  _oembed_f8d06a67d256e7fdf01b15aefbc21b86: '{{unknown}}'
+  _oembed_b6768564434a0148066f09354d221a43: '{{unknown}}'
+  _oembed_070d23bb877aff453c01563b44e7b747: '{{unknown}}'
+  _oembed_d789cb30c40bf450b0070cfce5a557a1: '{{unknown}}'
+  _oembed_ffc34330f0883bdb5ae3f012d55a2a5d: '{{unknown}}'
+  _oembed_0dbb5732cecf3915f16c6bbdd9bb14be: '{{unknown}}'
+  _oembed_33d70bf15cbd2c43c1b67c7a351d2595: '{{unknown}}'
+  _oembed_d6deb885114de713e5eb5e12a70e9ee6: '{{unknown}}'
+  _oembed_df646ef1c66dbab353c05369764e8cb1: '{{unknown}}'
+author:
+  login: aabs
+  email: matthews.andrew@gmail.com
+  display_name: Andrew Matthews
+  first_name: Andrew
+  last_name: Matthews
+---
+<p>Progress with the <a href="http://code.google.com/p/linqtordf/" target="_blank">LINQ to RDF</a> Query Provider is continuing apace. I have been pretty tightly focused for the last few days, so I haven't ad time to post an update. I've lately been working on a SPARQL query, which will allow me a much richer palette to play with. Here's the current version of the LINQ query I'm using to test the RdfSparqlQuery class.</p>
+<pre>[<span style="color:rgb(0,128,128);">TestMethod</span>]
+<span style="color:rgb(0,0,255);">public</span> <span style="color:rgb(0,0,255);">void</span> SparqlQuery()
+{
+    <span style="color:rgb(0,0,255);">string</span> urlToRemoteSparqlEndpoint = <span style="color:rgb(128,0,0);">@<a href="http://someUri">http://someUri</a></span>;
+    <span style="color:rgb(0,128,128);">TripleStore</span> ts = <span style="color:rgb(0,0,255);">new</span> <span style="color:rgb(0,128,128);">TripleStore</span>();
+    ts.EndpointUri = urlToRemoteSparqlEndpoint;
+    ts.QueryType = <span style="color:rgb(0,128,128);">QueryType</span>.RemoteSparqlStore;
+    <span style="color:rgb(0,128,128);">IRdfQuery</span>&lt;<span style="color:rgb(0,128,128);">Track</span>&gt; qry = <span style="color:rgb(0,0,255);">new</span> <span style="color:rgb(0,128,128);">RDF</span>(ts).ForType&lt;<span style="color:rgb(0,128,128);">Track</span>&gt;(); 
+    var q = from t <span style="color:rgb(0,0,255);">in</span> qry
+        where t.Year == 2006 &amp;&amp;
+        t.GenreName == <span style="color:rgb(128,0,0);">"History 5 | Fall 2006 | UC Berkeley"</span> 
+        select <span style="color:rgb(0,0,255);">new</span> {t.Title, t.FileLocation};
+    <span style="color:rgb(0,0,255);">foreach</span>(var track <span style="color:rgb(0,0,255);">in</span> q){
+        <span style="color:rgb(0,128,128);">Trace</span>.WriteLine(track.Title + <span style="color:rgb(128,0,0);">": "</span> + track.FileLocation);
+    }        
+}
+</pre>
+<p>And here's what it's producing as output:</p>
+<p><font face="couri" size="2">@prefix a: &lt;</font><font face="couri" size="2">http://aabs.purl.org/ontologies/2007/04/music#</font><font face="couri" size="2">&gt; . </font></p>
+<p><font face="couri" size="2">SELECT ?Title, ?FileLocation <br />WHERE {<br />?Track &lt;</font><font face="couri" size="2">http://aabs.purl.org/ontologies/2007/04/music#title</font><font face="couri" size="2">&gt; ?Title .<br />?Track &lt;</font><font face="couri" size="2">http://aabs.purl.org/ontologies/2007/04/music#artistName</font><font face="couri" size="2">&gt; ?ArtistName .<br />?Track &lt;</font><font face="couri" size="2">http://aabs.purl.org/ontologies/2007/04/music#albumName</font><font face="couri" size="2">&gt; ?AlbumName .<br />?Track &lt;</font><font face="couri" size="2">http://aabs.purl.org/ontologies/2007/04/music#year</font><font face="couri" size="2">&gt; ?Year .<br />?Track &lt;</font><font face="couri" size="2">http://aabs.purl.org/ontologies/2007/04/music#genreName</font><font face="couri" size="2">&gt; ?GenreName .<br />?Track &lt;</font><font face="couri" size="2">http://aabs.purl.org/ontologies/2007/04/music#comment</font><font face="couri" size="2">&gt; ?Comment .<br />?Track &lt;</font><font face="couri" size="2">http://aabs.purl.org/ontologies/2007/04/music#fileLocation</font><font face="couri" size="2">&gt; ?FileLocation .<br />?Track &lt;</font><font face="couri" size="2">http://aabs.purl.org/ontologies/2007/04/music#rating</font><font face="couri" size="2">&gt; ?Rating .<br />&nbsp;FILTER {<br />&nbsp;&nbsp;&nbsp; ((t.Year)=(2006^^xsdt:int))&amp;&amp;((t.GenreName)=("History 5 | Fall 2006 | UC Berkeley"^^xsdt:string))<br />&nbsp; }<br /></font><font face="couri" size="2">}</font></p>
+<p>as you can see, the query is fairly close. I just have to:</p>
+<ul>
+<li>Convert the property names in the filters to use the free variable name chosen for the object of a property assertion.</li>
+<li>Restrict the variables enumerated in the graph definition to just those required for the projection (if there is a projection)</li>
+<li>Use the UNION operator to allow disjunctions (OrElse expression types)</li>
+<li>Add the XSDT (XML Schema Datatypes) namespace to the prefixes</li>
+<li>Use standard SPARQL variable syntax for the ?Track</li>
+</ul>
+<p>I also need to find a <em>fast </em>back-end SPARQL enabled triple store that I can start to run these queries against. A month or two ago I did a <a href="http://aabs.wordpress.com/2007/03/23/converting-jena-to-net/" target="_blank">.NET conversion of Jena</a> using IKVM. I may end up going back to that. Any other suggestions would be welcome.</p>
+<p>If you want to have a play with it, or take a look at how to produce a LINQ Query provider, then you can use Subversion to get the code from Google. Use the command below:</p>
+<p><tt>svn checkout <b><i>http</i></b>://linqtordf.googlecode.com/svn/trunk/ linqtordf</tt></p>
