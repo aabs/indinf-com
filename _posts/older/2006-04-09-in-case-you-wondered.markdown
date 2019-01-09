@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-04-09 23:36:24+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/04/09/in-case-you-wondered/
 slug: in-case-you-wondered
 title: In case you wondered...

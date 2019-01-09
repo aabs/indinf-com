@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-05-29 14:10:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/05/29/free-at-last/
 slug: free-at-last
 title: Free at last...

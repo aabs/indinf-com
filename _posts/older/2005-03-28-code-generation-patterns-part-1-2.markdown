@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-03-28 22:14:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/03/28/code-generation-patterns-part-1-2/
 slug: code-generation-patterns-part-1-2
 title: Code Generation Patterns - Part 1

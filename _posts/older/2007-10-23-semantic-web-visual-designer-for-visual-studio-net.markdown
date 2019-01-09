@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-10-23 14:48:49+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/10/24/semantic-web-visual-designer-for-visual-studio-net/
 slug: semantic-web-visual-designer-for-visual-studio-net
 title: Semantic Web Visual Designer for Visual Studio .NET

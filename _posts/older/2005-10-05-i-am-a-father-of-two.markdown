@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-10-05 17:37:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/10/05/i-am-a-father-of-two/
 slug: i-am-a-father-of-two
 title: I am a father - of two.

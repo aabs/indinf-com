@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-11-10 11:18:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/11/10/truly-google-whacked/
 slug: truly-google-whacked
 title: Truly google whacked

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-12-05 11:50:27+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/12/05/the-origins-of-soa/
 slug: the-origins-of-soa
 title: The Origins of SOA

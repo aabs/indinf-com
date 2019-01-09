@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-10-10 09:25:18+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/10/10/bush-a-holocaust-denier/
 slug: bush-a-holocaust-denier
 title: Bush a Holocaust Denier?

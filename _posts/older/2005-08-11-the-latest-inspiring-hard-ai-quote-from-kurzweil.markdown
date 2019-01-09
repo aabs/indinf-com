@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-08-11 12:28:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/08/11/the-latest-inspiring-hard-ai-quote-from-kurzweil/
 slug: the-latest-inspiring-hard-ai-quote-from-kurzweil
 title: The latest inspiring hard-AI quote from Kurzweil

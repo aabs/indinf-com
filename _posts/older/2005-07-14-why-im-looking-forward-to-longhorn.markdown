@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-07-14 10:32:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/07/14/why-im-looking-forward-to-longhorn/
 slug: why-im-looking-forward-to-longhorn
 title: Why I'm looking forward to Longhorn

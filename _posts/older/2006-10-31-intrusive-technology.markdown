@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-10-31 22:55:48+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/01/intrusive-technology/
 slug: intrusive-technology
 title: Intrusive Technology

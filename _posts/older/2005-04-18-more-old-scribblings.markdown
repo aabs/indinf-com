@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-18 22:21:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/18/more-old-scribblings/
 slug: more-old-scribblings
 title: More old scribblings

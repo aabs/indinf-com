@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-11-12 23:05:14+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/13/photosynth-ctp-now-on-display/
 slug: photosynth-ctp-now-on-display
 title: Photosynth CTP now on display

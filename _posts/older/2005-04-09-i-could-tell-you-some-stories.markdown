@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-09 21:05:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/09/i-could-tell-you-some-stories/
 slug: i-could-tell-you-some-stories
 title: I could tell you some stories

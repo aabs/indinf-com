@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-01-23 05:52:14+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/01/23/more-on-the-agile-debate/
 slug: more-on-the-agile-debate
 title: More on the Agile Debate

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-06-12 01:06:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/06/12/may-was-a-quiet-month-3/
 slug: may-was-a-quiet-month-3
 title: May was a quiet month

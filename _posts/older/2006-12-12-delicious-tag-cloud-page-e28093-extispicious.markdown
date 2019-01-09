@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-12-12 03:32:51+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/12/12/delicious-tag-cloud-page-%e2%80%93-extispicious/
 slug: delicious-tag-cloud-page-%e2%80%93-extispicious
 title: Del.icio.us  tag cloud page – extisp.icio.us

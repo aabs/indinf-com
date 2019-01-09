@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-06-20 02:30:41+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/06/20/wireless-power-transmission/
 slug: wireless-power-transmission
 title: Wireless Power Transmission

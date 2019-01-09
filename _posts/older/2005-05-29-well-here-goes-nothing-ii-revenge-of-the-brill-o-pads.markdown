@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-05-29 14:40:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/05/29/well-here-goes-nothing-ii-revenge-of-the-brill-o-pads/
 slug: well-here-goes-nothing-ii-revenge-of-the-brill-o-pads
 title: Well, here goes nothing II - Revenge of the brill-o pads

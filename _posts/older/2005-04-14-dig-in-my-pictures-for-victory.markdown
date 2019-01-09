@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-14 09:17:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/14/dig-in-my-pictures-for-victory/
 slug: dig-in-my-pictures-for-victory
 title: Dig (in My Pictures) for Victory

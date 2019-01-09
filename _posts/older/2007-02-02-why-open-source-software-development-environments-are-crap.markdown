@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-02-02 04:21:41+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/02/02/why-open-source-software-development-environments-are-crap/
 slug: why-open-source-software-development-environments-are-crap
 title: Why open-source software development environments are crap

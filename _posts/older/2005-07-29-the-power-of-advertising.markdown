@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-07-29 21:19:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/07/29/the-power-of-advertising/
 slug: the-power-of-advertising
 title: The power of advertising

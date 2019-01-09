@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-07-06 09:30:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/07/06/whats-making-me-drool-today/
 slug: whats-making-me-drool-today
 title: What's making me [drool] today?

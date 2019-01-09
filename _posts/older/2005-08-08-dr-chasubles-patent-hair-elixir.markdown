@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-08-08 09:15:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/08/08/dr-chasubles-patent-hair-elixir/
 slug: dr-chasubles-patent-hair-elixir
 title: Dr Chasuble's Patent Hair Elixir

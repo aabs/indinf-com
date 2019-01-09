@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-10-25 10:36:54+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/10/25/announcing-linqtordf-03-and-linqtordf-designer-03/
 slug: announcing-linqtordf-03-and-linqtordf-designer-03
 title: Announcing LinqToRdf 0.3 and LinqToRdf Designer 0.3

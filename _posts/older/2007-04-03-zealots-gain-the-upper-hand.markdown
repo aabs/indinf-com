@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-04-03 00:59:22+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/04/03/zealots-gain-the-upper-hand/
 slug: zealots-gain-the-upper-hand
 title: Zealots gain the upper hand

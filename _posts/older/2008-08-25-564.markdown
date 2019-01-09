@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-08-25 22:39:46+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/08/26/564/
 slug: '564'
 title: What this blog is about

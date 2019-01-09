@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-05-29 11:49:36+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/05/29/functional-programming-lessons-from-high-school-arithmetic/
 slug: functional-programming-lessons-from-high-school-arithmetic
 title: Functional Programming - lessons from high-school arithmetic

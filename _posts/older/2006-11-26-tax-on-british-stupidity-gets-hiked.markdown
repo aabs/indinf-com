@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-11-26 03:57:20+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/26/tax-on-british-stupidity-gets-hiked/
 slug: tax-on-british-stupidity-gets-hiked
 title: Tax on British Stupidity gets Hiked

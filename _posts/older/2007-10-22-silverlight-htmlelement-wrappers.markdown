@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-10-22 04:56:26+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/10/22/silverlight-htmlelement-wrappers/
 slug: silverlight-htmlelement-wrappers
 title: Silverlight HtmlElement wrappers

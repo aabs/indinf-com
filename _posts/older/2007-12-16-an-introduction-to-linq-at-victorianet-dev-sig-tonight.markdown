@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-12-16 22:44:15+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/12/17/an-introduction-to-linq-at-victorianet-dev-sig-tonight/
 slug: an-introduction-to-linq-at-victorianet-dev-sig-tonight
 title: An Introduction to LINQ at Victoria.NET Dev SIG Tonight!

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-12-18 23:17:45+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/12/19/google-space-imagery-coup-%e2%80%93-from-kurzweilai/
 slug: google-space-imagery-coup-%e2%80%93-from-kurzweilai
 title: Google Space Imagery Coup – From KurzweilAI

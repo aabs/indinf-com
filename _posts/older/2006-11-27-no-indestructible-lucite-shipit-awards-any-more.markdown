@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-11-27 11:15:43+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/27/no-indestructible-lucite-shipit-awards-any-more/
 slug: no-indestructible-lucite-shipit-awards-any-more
 title: No indestructible Lucite Shipit Awards any More?

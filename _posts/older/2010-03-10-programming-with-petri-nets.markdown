@@ -10,6 +10,7 @@ excerpt: Petri Nets are extremely powerful and expressive, but they are not as w
   it in your own projects.
 layout: page
 header: no
+header: no
 title: Automata-Based Programming With Petri Nets - Part 1
 wordpress_id: 686
 categories:

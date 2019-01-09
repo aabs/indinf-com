@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-11-09 03:53:48+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/09/emily-took-her-first-steps-yesterday/
 slug: emily-took-her-first-steps-yesterday
 title: Emily Took her First Steps Yesterday

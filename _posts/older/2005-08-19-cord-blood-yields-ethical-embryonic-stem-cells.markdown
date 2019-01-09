@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-08-19 14:22:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/08/19/cord-blood-yields-ethical-embryonic-stem-cells/
 slug: cord-blood-yields-ethical-embryonic-stem-cells
 title: Cord blood yields 'ethical' embryonic stem cells

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2009-02-26 23:27:12+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2009/02/27/australian-port-a-new-wmd/
 slug: australian-port-a-new-wmd
 title: Australian Port – a new WMD?

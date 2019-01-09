@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-04-04 04:23:32+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/04/04/policy-and-configuration-i/
 slug: policy-and-configuration-i
 title: Policy and Configuration I

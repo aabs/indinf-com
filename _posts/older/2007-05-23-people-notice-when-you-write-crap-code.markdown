@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-05-23 02:38:12+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/05/23/people-notice-when-you-write-crap-code/
 slug: people-notice-when-you-write-crap-code
 title: People notice when you write crap code

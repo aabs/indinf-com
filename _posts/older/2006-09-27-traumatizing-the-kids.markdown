@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-09-27 05:54:53+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/09/27/traumatizing-the-kids/
 slug: traumatizing-the-kids
 title: Traumatizing the Kids

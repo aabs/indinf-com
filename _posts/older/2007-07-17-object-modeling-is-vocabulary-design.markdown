@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-07-17 12:53:48+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/07/17/object-modeling-is-vocabulary-design/
 slug: object-modeling-is-vocabulary-design
 title: Object Modeling is Vocabulary Design

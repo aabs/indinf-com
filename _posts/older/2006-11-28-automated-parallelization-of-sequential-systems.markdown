@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-11-28 01:41:01+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/28/automated-parallelization-of-sequential-systems/
 slug: automated-parallelization-of-sequential-systems
 title: Automated parallelization of Sequential Systems

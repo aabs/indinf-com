@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-06-04 23:57:24+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/06/05/linqtordf-progress-update-2007-06-05/
 slug: linqtordf-progress-update-2007-06-05
 title: LinqToRdf - Progress Update 2007-06-05

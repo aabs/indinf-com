@@ -6,7 +6,8 @@ excerpt: Functional Programming is probably simpler than you think. It's based o
   the idea that there is often very little distinction between programs an data. This
   post explores the basic techniques of functional programming and demonstrates their
   use in C#.
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/04/09/functional-programming-is-it-worth-your-time/
 slug: functional-programming-is-it-worth-your-time
 title: Functional programming - Is it worth your time?

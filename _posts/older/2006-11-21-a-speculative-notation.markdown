@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-11-21 07:58:01+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/21/a-speculative-notation/
 slug: a-speculative-notation
 title: A Speculative Notation

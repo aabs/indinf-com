@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-07-07 09:27:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/07/07/kerry-smells-or-at-least-i-hope-so/
 slug: kerry-smells-or-at-least-i-hope-so
 title: Kerry smells - or at least I hope so!!!

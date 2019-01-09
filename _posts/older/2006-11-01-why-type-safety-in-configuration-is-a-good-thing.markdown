@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-11-01 06:39:34+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/01/why-type-safety-in-configuration-is-a-good-thing/
 slug: why-type-safety-in-configuration-is-a-good-thing
 title: Why type safety in configuration is a good thing

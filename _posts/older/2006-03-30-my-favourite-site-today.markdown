@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-03-30 00:44:21+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/03/30/my-favourite-site-today/
 slug: my-favourite-site-today
 title: My favourite site today

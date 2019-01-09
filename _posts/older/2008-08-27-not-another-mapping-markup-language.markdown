@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-08-27 04:03:14+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/08/27/not-another-mapping-markup-language/
 slug: not-another-mapping-markup-language
 title: Not another mapping markup language!

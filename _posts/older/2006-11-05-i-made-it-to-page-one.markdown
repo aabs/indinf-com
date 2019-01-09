@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-11-05 23:26:12+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/06/i-made-it-to-page-one/
 slug: i-made-it-to-page-one
 title: I made it to page one!

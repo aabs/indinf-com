@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-20 13:00:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/20/quote-of-the-day-2/
 slug: quote-of-the-day-2
 title: Quote of the day

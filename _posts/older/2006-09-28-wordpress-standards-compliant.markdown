@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-09-28 04:50:56+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/09/28/wordpress-standards-compliant/
 slug: wordpress-standards-compliant
 title: WordPress Standards Compliant

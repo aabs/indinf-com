@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-10-31 05:03:38+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/10/31/securing-a-wcf-service-with-certificates/
 slug: securing-a-wcf-service-with-certificates
 title: Securing a WCF service with Certificates

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-09-11 04:55:12+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/09/11/continue-if-not-null-operator-yes-please/
 slug: continue-if-not-null-operator-yes-please
 title: Continue if not null operator? Yes please!

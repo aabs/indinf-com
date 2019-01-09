@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-04-19 23:23:42+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/04/20/corneliu-caught-a-funnel-web-and-persuaded-it-to-do-a-photo-shoot/
 slug: corneliu-caught-a-funnel-web-and-persuaded-it-to-do-a-photo-shoot
 title: Corneliu caught a funnel-web, and persuaded it to do a photo shoot

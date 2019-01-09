@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-03-23 10:35:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/03/23/the-wandering-glitch-is-moving/
 slug: the-wandering-glitch-is-moving
 title: The Wandering Glitch is Moving

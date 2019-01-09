@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-03-15 13:51:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/03/15/what-im-gonna-cover-2/
 slug: what-im-gonna-cover-2
 title: What I'm gonna cover

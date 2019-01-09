@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-12-12 06:40:05+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/12/12/problems-with-virtual-server-on-vista/
 slug: problems-with-virtual-server-on-vista
 title: Problems with Virtual Server on Vista

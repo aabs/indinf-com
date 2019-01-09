@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-05-04 12:54:24+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/05/04/announcing-linqtordf-v06/
 slug: announcing-linqtordf-v06
 title: Announcing LinqToRdf v0.6

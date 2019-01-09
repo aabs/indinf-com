@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-12-14 02:29:46+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/12/14/dodgy-theory-of-the-week/
 slug: dodgy-theory-of-the-week
 title: Dodgy theory of the week

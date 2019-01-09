@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2011-05-14 06:49:05+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2011/05/14/preparing-a-project-gutenberg-book-for-use-on-a-6-ereader/
 slug: preparing-a-project-gutenberg-book-for-use-on-a-6-ereader
 title: Preparing a Project Gutenberg ebook for use on a 6" ereader

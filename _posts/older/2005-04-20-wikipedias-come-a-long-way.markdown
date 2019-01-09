@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-20 09:58:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/20/wikipedias-come-a-long-way/
 slug: wikipedias-come-a-long-way
 title: Wikipedia's come a long way

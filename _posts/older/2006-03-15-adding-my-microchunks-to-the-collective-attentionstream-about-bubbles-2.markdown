@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-03-15 14:40:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/03/15/adding-my-microchunks-to-the-collective-attentionstream-about-bubbles-2/
 slug: adding-my-microchunks-to-the-collective-attentionstream-about-bubbles-2
 title: Adding my microchunks to the collective attentionstream - about bubbles.

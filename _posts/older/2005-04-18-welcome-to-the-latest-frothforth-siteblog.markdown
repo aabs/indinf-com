@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-18 20:55:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/18/welcome-to-the-latest-frothforth-siteblog/
 slug: welcome-to-the-latest-frothforth-siteblog
 title: Welcome to the latest Froth/Forth site/blog

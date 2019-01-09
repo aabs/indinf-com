@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-12-21 13:39:31+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/12/21/the-linkme-xmas-do-2005-2/
 slug: the-linkme-xmas-do-2005-2
 title: The LinkMe Xmas Do 2005

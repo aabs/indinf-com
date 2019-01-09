@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-06-25 10:42:53+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/06/25/ubuntist-deviant-atones-for-sins/
 slug: ubuntist-deviant-atones-for-sins
 title: Ubuntist deviant atones for sins

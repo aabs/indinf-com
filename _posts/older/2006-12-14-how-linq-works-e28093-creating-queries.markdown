@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-12-14 23:13:45+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/12/15/how-linq-works-%e2%80%93-creating-queries/
 slug: how-linq-works-%e2%80%93-creating-queries
 title: How LINQ Works – Creating Queries

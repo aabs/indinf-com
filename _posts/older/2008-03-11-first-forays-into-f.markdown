@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-03-11 09:00:11+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/03/11/first-forays-into-f/
 slug: first-forays-into-f
 title: First Forays into F#

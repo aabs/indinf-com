@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-05-10 13:21:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/05/10/my-new-favourite-dj-david-emonin/
 slug: my-new-favourite-dj-david-emonin
 title: My new favourite DJ - David Emonin

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-12-05 02:53:18+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/12/05/dodgy-postmodernist-analysis/
 slug: dodgy-postmodernist-analysis
 title: Dodgy Postmodernist Analysis

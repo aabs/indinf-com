@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-02-10 22:28:56+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/02/11/from-kurzweilai-%e2%80%93-first-general-purpose-quantum-computer/
 slug: from-kurzweilai-%e2%80%93-first-general-purpose-quantum-computer
 title: From KurzweilAI – First General Purpose Quantum Computer

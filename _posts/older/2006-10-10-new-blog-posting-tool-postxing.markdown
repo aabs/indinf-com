@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-10-10 07:21:24+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/10/11/new-blog-posting-tool-postxing/
 slug: new-blog-posting-tool-postxing
 title: 'New Blog Posting Tool: PostXING'

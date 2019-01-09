@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-05-18 09:52:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/05/18/111637451087270948/
 slug: '111637451087270948'
 title: Interesting Stats

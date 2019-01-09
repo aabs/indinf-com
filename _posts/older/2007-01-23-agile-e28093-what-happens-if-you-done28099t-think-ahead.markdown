@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-01-23 23:30:27+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/01/24/agile-%e2%80%93-what-happens-if-you-don%e2%80%99t-think-ahead/
 slug: agile-%e2%80%93-what-happens-if-you-don%e2%80%99t-think-ahead
 title: Agile – what happens if you don’t think ahead?

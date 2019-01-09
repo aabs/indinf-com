@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-18 22:33:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/18/old-haiku/
 slug: old-haiku
 title: Old Haiku

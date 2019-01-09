@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-03-22 11:54:49+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/03/22/are-you-a-meaty-algorithm/
 slug: are-you-a-meaty-algorithm
 title: Are You Sublime or Ridiculous?

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-07-11 13:36:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/07/11/when-a-brill-o-pad-goes-bad/
 slug: when-a-brill-o-pad-goes-bad
 title: When a brill-o-pad goes bad...

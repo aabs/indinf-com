@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-12-21 04:47:39+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/12/21/a-compelling-case-for-linq/
 slug: a-compelling-case-for-linq
 title: A compelling case for LINQ

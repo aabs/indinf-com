@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-09-06 04:08:59+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/09/06/sharpreader-is-still-the-best/
 slug: sharpreader-is-still-the-best
 title: SharpReader is still the best

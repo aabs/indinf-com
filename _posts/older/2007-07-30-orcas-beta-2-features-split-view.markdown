@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-07-30 05:39:48+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/07/30/orcas-beta-2-features-split-view/
 slug: orcas-beta-2-features-split-view
 title: Orcas Beta 2 Features - Split View

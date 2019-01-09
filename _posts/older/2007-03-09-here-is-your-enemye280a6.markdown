@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-03-09 00:42:38+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/03/09/here-is-your-enemy%e2%80%a6/
 slug: here-is-your-enemy%e2%80%a6
 title: Here is your enemy…

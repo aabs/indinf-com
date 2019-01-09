@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-01-22 03:29:41+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/01/22/i-hope-nathaniel-webster-is-turning-in-his-grave/
 slug: i-hope-nathaniel-webster-is-turning-in-his-grave
 title: I Hope Nathaniel Webster is Turning in his Grave

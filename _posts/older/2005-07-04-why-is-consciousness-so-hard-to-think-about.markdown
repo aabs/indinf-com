@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-07-04 09:32:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/07/04/why-is-consciousness-so-hard-to-think-about/
 slug: why-is-consciousness-so-hard-to-think-about
 title: Why is consciousness so hard to think about?

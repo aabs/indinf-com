@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-13 12:18:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/13/derek-unveiled/
 slug: derek-unveiled
 title: Derek Unveiled

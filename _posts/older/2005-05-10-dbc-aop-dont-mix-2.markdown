@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-05-10 19:44:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/05/10/dbc-aop-dont-mix-2/
 slug: dbc-aop-dont-mix-2
 title: DBC & AOP don't mix

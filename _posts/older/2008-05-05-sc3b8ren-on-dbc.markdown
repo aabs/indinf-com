@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-05-05 11:27:30+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/05/05/s%c3%b8ren-on-dbc/
 slug: s%c3%b8ren-on-dbc
 title: Søren on DBC

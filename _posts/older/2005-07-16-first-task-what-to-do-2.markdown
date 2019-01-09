@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-07-16 06:54:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/07/16/first-task-what-to-do-2/
 slug: first-task-what-to-do-2
 title: First Task - What to do?

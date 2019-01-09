@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-03-30 10:58:44+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/03/30/is-it-really-impossible-to-choose-between-linq-and-stored-procedures/
 slug: is-it-really-impossible-to-choose-between-linq-and-stored-procedures
 title: Is it really impossible to choose between LINQ and Stored Procedures?

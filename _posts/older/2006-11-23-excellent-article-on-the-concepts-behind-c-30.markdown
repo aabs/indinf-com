@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-11-23 01:02:56+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/23/excellent-article-on-the-concepts-behind-c-30/
 slug: excellent-article-on-the-concepts-behind-c-30
 title: Excellent Article on the Concepts behind C# 3.0

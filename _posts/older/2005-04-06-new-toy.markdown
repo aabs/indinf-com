@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-06 13:19:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/06/new-toy/
 slug: new-toy
 title: New Toy

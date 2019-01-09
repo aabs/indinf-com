@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-04-05 02:52:59+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/04/05/somebody-else-who-despises-pencil-neck-double-talk/
 slug: somebody-else-who-despises-pencil-neck-double-talk
 title: Somebody else who despises pencil-neck double-talk...

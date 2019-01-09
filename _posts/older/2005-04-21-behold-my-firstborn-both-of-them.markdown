@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-21 20:21:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/21/behold-my-firstborn-both-of-them/
 slug: behold-my-firstborn-both-of-them
 title: Behold - my firstborn (both of them)

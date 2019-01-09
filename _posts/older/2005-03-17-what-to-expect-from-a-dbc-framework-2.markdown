@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-03-17 14:07:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/03/17/what-to-expect-from-a-dbc-framework-2/
 slug: what-to-expect-from-a-dbc-framework-2
 title: What to expect from a DBC framework

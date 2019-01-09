@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-08-30 07:56:06+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/08/31/a-simple-interface-to-timercallback/
 slug: a-simple-interface-to-timercallback
 title: A Simple Interface to TimerCallback

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-03-12 09:00:31+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/03/12/rip-arnie-humour/
 slug: rip-arnie-humour
 title: RIP Arnie Humour

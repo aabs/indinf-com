@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-11-17 12:26:38+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/11/17/faceprints/
 slug: faceprints
 title: Faceprints

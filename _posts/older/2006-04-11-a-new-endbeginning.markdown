@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-04-11 00:40:01+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/04/11/a-new-endbeginning/
 slug: a-new-endbeginning
 title: A new end/beginning

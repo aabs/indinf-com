@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-01-23 00:24:17+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/01/23/the-great-domain-model-debate-%e2%80%93-solved/
 slug: the-great-domain-model-debate-%e2%80%93-solved
 title: The Great Domain Model Debate – Solved!

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-07-08 13:50:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/07/08/ive-done-my-civic-duty-for-the-year/
 slug: ive-done-my-civic-duty-for-the-year
 title: I've done my civic duty for the year...

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-07-03 16:26:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/07/03/giganotosaurus/
 slug: giganotosaurus
 title: Giganotosaurus

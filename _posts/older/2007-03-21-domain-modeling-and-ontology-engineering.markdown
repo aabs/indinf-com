@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-03-21 03:59:20+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/03/21/domain-modeling-and-ontology-engineering/
 slug: domain-modeling-and-ontology-engineering
 title: Domain Modeling and Ontology Engineering

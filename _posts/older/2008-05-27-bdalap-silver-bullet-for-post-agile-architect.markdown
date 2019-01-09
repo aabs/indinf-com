@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-05-27 00:39:59+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/05/27/bdalap-silver-bullet-for-post-agile-architect/
 slug: bdalap-silver-bullet-for-post-agile-architect
 title: BDALAP - Silver bullet for post-agile architect

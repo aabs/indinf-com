@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-08-04 11:39:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/08/04/flat-earth-society/
 slug: flat-earth-society
 title: Flat-earth Society

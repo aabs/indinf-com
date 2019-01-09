@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-08-24 22:54:04+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/08/25/linqtordf-now-works-on-the-visual-studio-2008-beta-2/
 slug: linqtordf-now-works-on-the-visual-studio-2008-beta-2
 title: LinqToRdf now works on the Visual Studio 2008 Beta 2

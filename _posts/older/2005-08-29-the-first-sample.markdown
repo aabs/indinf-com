@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-08-29 11:10:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/08/29/the-first-sample/
 slug: the-first-sample
 title: The first sample

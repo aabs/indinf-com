@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-03-15 09:39:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/03/15/welcome-to-my-blog/
 slug: welcome-to-my-blog
 title: Welcome to my blog

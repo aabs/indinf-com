@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-27 08:59:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/27/gross-quote-of-the-day/
 slug: gross-quote-of-the-day
 title: Gross quote of the day

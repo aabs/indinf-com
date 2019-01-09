@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-05-31 06:11:45+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/05/31/linqtordf-sparql-query-generation/
 slug: linqtordf-sparql-query-generation
 title: LinqToRdf - SPARQL Query Generation

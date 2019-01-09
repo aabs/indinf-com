@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-07-29 21:06:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/07/29/kerry-has-a-blog-or-two/
 slug: kerry-has-a-blog-or-two
 title: Kerry has a blog (or two)

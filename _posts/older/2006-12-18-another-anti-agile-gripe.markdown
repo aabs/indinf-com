@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-12-18 00:26:14+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/12/18/another-anti-agile-gripe/
 slug: another-anti-agile-gripe
 title: Another Anti-Agile Gripe

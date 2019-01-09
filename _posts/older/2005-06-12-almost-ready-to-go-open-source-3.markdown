@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-06-12 02:13:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/06/12/almost-ready-to-go-open-source-3/
 slug: almost-ready-to-go-open-source-3
 title: Almost ready to go open source

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-03-30 04:55:20+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/03/30/some-new-themes/
 slug: some-new-themes
 title: Some new themes.

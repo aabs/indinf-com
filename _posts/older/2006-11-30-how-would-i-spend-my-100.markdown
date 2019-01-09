@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-11-30 04:45:10+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/30/how-would-i-spend-my-100/
 slug: how-would-i-spend-my-100
 title: How would I spend my $100?

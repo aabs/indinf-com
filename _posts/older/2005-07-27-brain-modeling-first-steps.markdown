@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-07-27 09:11:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/07/27/brain-modeling-first-steps/
 slug: brain-modeling-first-steps
 title: Brain modeling - first steps

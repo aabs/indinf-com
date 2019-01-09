@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-03-03 11:38:10+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/03/03/new-features-in-visual-studio-orcas/
 slug: new-features-in-visual-studio-orcas
 title: New Features in Visual Studio Orcas

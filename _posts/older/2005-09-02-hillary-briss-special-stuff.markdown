@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-09-02 16:10:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/09/02/hillary-briss-special-stuff/
 slug: hillary-briss-special-stuff
 title: Hillary Briss' "Special Stuff"?

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-06-25 14:07:14+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/06/26/state-machines-in-c-30-using-t4-templates/
 slug: state-machines-in-c-30-using-t4-templates
 title: State Machines in C# 3.0 using T4 Templates

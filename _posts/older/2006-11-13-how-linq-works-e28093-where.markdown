@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-11-13 22:35:17+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/14/how-linq-works-%e2%80%93-where/
 slug: how-linq-works-%e2%80%93-where
 title: How LINQ Works – Where

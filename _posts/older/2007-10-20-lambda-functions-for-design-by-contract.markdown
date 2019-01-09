@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-10-20 12:35:11+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/10/20/lambda-functions-for-design-by-contract/
 slug: lambda-functions-for-design-by-contract
 title: Lambda Functions for Design By Contract

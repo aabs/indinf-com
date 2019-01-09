@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-01 13:12:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/01/the-highlight-of-my-week/
 slug: the-highlight-of-my-week
 title: The highlight of my week

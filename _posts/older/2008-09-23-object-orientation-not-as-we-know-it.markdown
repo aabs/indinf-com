@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-09-23 12:27:27+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/09/23/object-orientation-not-as-we-know-it/
 slug: object-orientation-not-as-we-know-it
 title: Object Orientation? Not as we know it.

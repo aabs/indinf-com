@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-12-22 00:31:06+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/12/22/i-crossed-the-200-hitsday-threshold-yayyy/
 slug: i-crossed-the-200-hitsday-threshold-yayyy
 title: I Crossed the 200 Hits/Day Threshold! Yayyy!!!!

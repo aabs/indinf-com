@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-03-11 23:31:15+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/03/12/the-greate-domain-model-debated-continued/
 slug: the-greate-domain-model-debated-continued
 title: The Greate Domain Model Debated - Continued.

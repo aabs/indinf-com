@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-09-15 03:10:06+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/09/15/new-resources-for-linqtordf/
 slug: new-resources-for-linqtordf
 title: New Resources for LinqToRdf

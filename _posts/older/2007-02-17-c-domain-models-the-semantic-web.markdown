@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-02-17 20:54:10+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/02/18/c-domain-models-the-semantic-web/
 slug: c-domain-models-the-semantic-web
 title: C#, Domain Models & the Semantic Web

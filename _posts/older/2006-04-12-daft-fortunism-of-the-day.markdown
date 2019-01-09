@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-04-12 01:04:50+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/04/12/daft-fortunism-of-the-day/
 slug: daft-fortunism-of-the-day
 title: Daft fortunism of the day

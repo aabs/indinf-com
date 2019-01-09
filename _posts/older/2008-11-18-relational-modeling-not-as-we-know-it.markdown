@@ -11,7 +11,8 @@ excerpt: '... there''s plenty of ways that RDF specifically addresses the proble
   In fact they can be exposed to the world as triples without too much trouble. The
   problem is that developers need more than just data storage and retrieval. They
   need <i>intelligent</i> data storage and retrieval.'
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/11/18/relational-modeling-not-as-we-know-it/
 slug: relational-modeling-not-as-we-know-it
 title: Relational Modeling? Not as we know it!

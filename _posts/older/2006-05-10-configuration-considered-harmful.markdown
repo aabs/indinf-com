@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-05-10 00:00:28+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/05/10/configuration-considered-harmful/
 slug: configuration-considered-harmful
 title: Configuration considered harmful

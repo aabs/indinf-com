@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-08-22 11:06:32+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/08/22/semantic-development-environments/
 slug: semantic-development-environments
 title: Semantic Development Environments

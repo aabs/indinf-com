@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-21 20:32:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/21/more-photographic-family-history/
 slug: more-photographic-family-history
 title: More photographic family history

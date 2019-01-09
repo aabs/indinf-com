@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2012-03-10 08:48:16+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2012/03/10/859/
 slug: '859'
 title: No Content Found

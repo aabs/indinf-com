@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-11-21 12:02:22+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/11/21/a-generic-class-factory-for-c-30/
 slug: a-generic-class-factory-for-c-30
 title: A Generic Class Factory for C# 3.0

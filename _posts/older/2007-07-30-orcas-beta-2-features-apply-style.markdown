@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-07-30 04:29:03+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/07/30/orcas-beta-2-features-apply-style/
 slug: orcas-beta-2-features-apply-style
 title: Orcas Beta 2 Features - Apply Style

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-10-05 04:12:07+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/10/05/generic-algorithms-in-c/
 slug: generic-algorithms-in-c
 title: Generic Algorithms in C#

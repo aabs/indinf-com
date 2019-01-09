@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-12-31 01:14:49+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/12/31/the-ambient-context-design-pattern-in-net/
 slug: the-ambient-context-design-pattern-in-net
 title: The Ambient Context Design Pattern in .NET

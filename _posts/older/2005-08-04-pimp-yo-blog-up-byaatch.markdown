@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-08-04 16:45:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/08/04/pimp-yo-blog-up-byaatch/
 slug: pimp-yo-blog-up-byaatch
 title: Pimp yo blog up byaatch!

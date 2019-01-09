@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-09-02 16:18:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/09/02/some-beautiful-images-from-derek/
 slug: some-beautiful-images-from-derek
 title: Some beautiful images from Derek

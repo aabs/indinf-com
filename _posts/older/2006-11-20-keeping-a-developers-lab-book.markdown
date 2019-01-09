@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-11-20 19:14:23+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/21/keeping-a-developers-lab-book/
 slug: keeping-a-developers-lab-book
 title: Keeping a Developer's Lab Book

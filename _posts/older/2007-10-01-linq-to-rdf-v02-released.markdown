@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-10-01 12:14:16+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/10/01/linq-to-rdf-v02-released/
 slug: linq-to-rdf-v02-released
 title: LinqToRdf 0.2 Released

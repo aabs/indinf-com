@@ -2,7 +2,8 @@
 author: aabs
 comments: false
 date: 2007-04-18 04:42:36+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/04/18/why-i-hate-windows-vista-and-can%e2%80%99t-wait-to-re-install-xp/
 slug: why-i-hate-windows-vista-and-can%e2%80%99t-wait-to-re-install-xp
 title: Why I hate Windows Vista (and can’t wait to re-install XP)

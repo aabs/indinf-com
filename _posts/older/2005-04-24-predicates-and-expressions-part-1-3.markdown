@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-24 17:28:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/24/predicates-and-expressions-part-1-3/
 slug: predicates-and-expressions-part-1-3
 title: Predicates and Expressions - Part 1

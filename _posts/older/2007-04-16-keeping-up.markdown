@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-04-16 03:01:10+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/04/16/keeping-up/
 slug: keeping-up
 title: Keeping up

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-07-22 09:42:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/07/22/i-am-a-charitable-ngo-and-i-didnt-know-it/
 slug: i-am-a-charitable-ngo-and-i-didnt-know-it
 title: I am a charitable NGO and I didn't know - it.

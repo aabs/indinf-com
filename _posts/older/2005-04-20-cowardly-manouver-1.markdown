@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-20 12:16:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/20/cowardly-manouver-1/
 slug: cowardly-manouver-1
 title: 'Cowardly Manouver #1'

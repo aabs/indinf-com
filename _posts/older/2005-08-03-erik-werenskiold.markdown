@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-08-03 15:31:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/08/03/erik-werenskiold/
 slug: erik-werenskiold
 title: Erik Werenskiold

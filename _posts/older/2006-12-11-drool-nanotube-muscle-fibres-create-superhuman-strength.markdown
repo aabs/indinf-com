@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-12-11 03:12:08+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/12/11/drool-nanotube-muscle-fibres-create-superhuman-strength/
 slug: drool-nanotube-muscle-fibres-create-superhuman-strength
 title: '[drool] Nanotube Muscle Fibres Create Superhuman Strength'

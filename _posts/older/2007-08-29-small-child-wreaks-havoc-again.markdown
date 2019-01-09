@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-08-29 00:13:35+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/08/29/small-child-wreaks-havoc-again/
 slug: small-child-wreaks-havoc-again
 title: Small Child Wreaks Havoc. Again.

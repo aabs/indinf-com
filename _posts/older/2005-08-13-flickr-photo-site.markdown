@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-08-13 13:01:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/08/13/flickr-photo-site/
 slug: flickr-photo-site
 title: Flickr Photo Site

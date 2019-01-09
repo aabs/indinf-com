@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-07-07 20:44:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/07/07/the-big-day-has-arrived-3/
 slug: the-big-day-has-arrived-3
 title: The big day has arrived

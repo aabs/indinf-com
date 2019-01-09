@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2009-03-31 05:58:49+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2009/03/31/does-this-seem-nice-to-you/
 slug: does-this-seem-nice-to-you
 title: Does this seem nice to you?

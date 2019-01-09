@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-01-07 04:59:38+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/01/07/setting-up-sdb-on-sql-server-2005/
 slug: setting-up-sdb-on-sql-server-2005
 title: Setting up SDB on SQL Server 2005

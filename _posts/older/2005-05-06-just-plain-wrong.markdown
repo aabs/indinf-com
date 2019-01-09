@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-05-06 11:03:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/05/06/just-plain-wrong/
 slug: just-plain-wrong
 title: Just Plain Wrong!

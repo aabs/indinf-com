@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-09 21:08:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/09/i-saw-a-wombat/
 slug: i-saw-a-wombat
 title: I saw a wombat...

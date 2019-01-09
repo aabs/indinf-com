@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-13 12:06:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/13/buster-at-dogstercom/
 slug: buster-at-dogstercom
 title: Buster at dogster.com

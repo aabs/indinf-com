@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-03-21 23:41:44+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/03/21/i-gotta-git-me-some-of-this/
 slug: i-gotta-git-me-some-of-this
 title: I gotta git me some of this!

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-12-20 00:09:01+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/12/20/you-know-you%e2%80%99re-in-another-country-when%e2%80%a6/
 slug: you-know-you%e2%80%99re-in-another-country-when%e2%80%a6
 title: You know you’re in another country when…

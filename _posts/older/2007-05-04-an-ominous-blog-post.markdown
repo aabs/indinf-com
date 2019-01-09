@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-05-04 00:46:15+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/05/04/an-ominous-blog-post/
 slug: an-ominous-blog-post
 title: An Ominous Blog Post

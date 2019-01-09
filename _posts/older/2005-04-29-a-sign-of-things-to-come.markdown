@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-29 09:26:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/29/a-sign-of-things-to-come/
 slug: a-sign-of-things-to-come
 title: A sign of things to come?

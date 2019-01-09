@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-18 21:25:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/18/mulder-and-sculley/
 slug: mulder-and-sculley
 title: Mulder and Sculley

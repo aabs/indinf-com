@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-05-10 16:19:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/05/10/insight-into-the-mind-of-a-savant/
 slug: insight-into-the-mind-of-a-savant
 title: Insight into the mind of a savant

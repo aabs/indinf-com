@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-07-19 09:48:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/07/19/meta-evolution-evolving-the-capacity-to-learn/
 slug: meta-evolution-evolving-the-capacity-to-learn
 title: Meta-evolution - evolving the capacity to learn

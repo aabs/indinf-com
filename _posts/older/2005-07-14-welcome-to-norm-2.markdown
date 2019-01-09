@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-07-14 04:50:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/07/14/welcome-to-norm-2/
 slug: welcome-to-norm-2
 title: Welcome to nORM

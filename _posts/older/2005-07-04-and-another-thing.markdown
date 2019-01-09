@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-07-04 09:47:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/07/04/and-another-thing/
 slug: and-another-thing
 title: And another thing...

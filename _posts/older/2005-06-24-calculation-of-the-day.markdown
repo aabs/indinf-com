@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-06-24 18:34:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/06/24/calculation-of-the-day/
 slug: calculation-of-the-day
 title: Calculation of the day

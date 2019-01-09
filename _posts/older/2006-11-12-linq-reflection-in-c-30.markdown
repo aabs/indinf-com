@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-11-12 22:33:34+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/13/linq-reflection-in-c-30/
 slug: linq-reflection-in-c-30
 title: LINQ & Reflection in C# 3.0

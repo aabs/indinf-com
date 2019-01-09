@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-03-16 13:55:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/03/16/domain-analysis-kinda-2/
 slug: domain-analysis-kinda-2
 title: Domain Analysis (kinda)

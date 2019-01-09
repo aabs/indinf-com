@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-08-13 11:25:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/08/13/dad-looking-cheerful/
 slug: dad-looking-cheerful
 title: Dad looking cheerful

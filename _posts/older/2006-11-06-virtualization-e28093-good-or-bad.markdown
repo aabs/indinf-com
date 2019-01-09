@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-11-06 23:59:10+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/07/virtualization-%e2%80%93-good-or-bad/
 slug: virtualization-%e2%80%93-good-or-bad
 title: Virtualization – Good or Bad?

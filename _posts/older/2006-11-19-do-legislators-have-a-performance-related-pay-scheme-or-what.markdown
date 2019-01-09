@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-11-19 09:59:19+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/19/do-legislators-have-a-performance-related-pay-scheme-or-what/
 slug: do-legislators-have-a-performance-related-pay-scheme-or-what
 title: Do legislators have a performance related pay scheme, or what?

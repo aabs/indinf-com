@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-03-29 03:14:16+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/03/29/another-source-of-british-pride/
 slug: another-source-of-british-pride
 title: Another Source of British Pride?

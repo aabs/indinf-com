@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-09-21 12:36:49+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/09/21/wiki-royale-with-cheese/
 slug: wiki-royale-with-cheese
 title: Wiki Royale with Cheese

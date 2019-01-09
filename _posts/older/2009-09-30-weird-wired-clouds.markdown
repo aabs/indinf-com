@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2009-09-30 00:44:48+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2009/09/30/weird-wired-clouds/
 slug: weird-wired-clouds
 title: Weird Wired Clouds
@@ -11,7 +12,7 @@ categories:
 - science
 ---
 
-Wired has a very interesting [article ](http://www.wired.com/wiredscience/2009/09/clouds/)on strange or rare weather formations.
+Wired has a very interesting [article ](http://www.wired.com/wiredscience/2009/09/clouds/) on strange or rare weather formations.
 
 Here's an example - morning glory clouds from Cape York, Australia.
 

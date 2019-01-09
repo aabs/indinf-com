@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-08-04 20:22:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/08/04/dbc-in-the-persistence-broker-2/
 slug: dbc-in-the-persistence-broker-2
 title: Dbc in the persistence broker

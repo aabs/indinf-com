@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-05-02 08:48:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/05/02/dodgy-poem-of-the-day/
 slug: dodgy-poem-of-the-day
 title: Dodgy poem of the day

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-01-02 00:03:31+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/01/02/new-linq-wiki-site-started/
 slug: new-linq-wiki-site-started
 title: New LINQ Wiki Site Started

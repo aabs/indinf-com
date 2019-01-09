@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-28 14:07:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/28/straw-poll/
 slug: straw-poll
 title: Straw Poll

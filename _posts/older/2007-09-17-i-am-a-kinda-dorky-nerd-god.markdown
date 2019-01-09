@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-09-17 11:07:03+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/09/17/i-am-a-kinda-dorky-nerd-god/
 slug: i-am-a-kinda-dorky-nerd-god
 title: I am a Kinda Dorky Nerd God!!

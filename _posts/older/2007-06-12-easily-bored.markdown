@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-06-12 12:24:47+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/06/12/easily-bored/
 slug: easily-bored
 title: Easily Bored?

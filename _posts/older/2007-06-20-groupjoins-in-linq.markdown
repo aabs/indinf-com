@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-06-20 13:07:41+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/06/20/groupjoins-in-linq/
 slug: groupjoins-in-linq
 title: GroupJoins in LINQ

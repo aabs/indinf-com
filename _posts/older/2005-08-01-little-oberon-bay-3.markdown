@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-08-01 16:16:38+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/08/01/little-oberon-bay-3/
 slug: little-oberon-bay-3
 title: little oberon bay 3

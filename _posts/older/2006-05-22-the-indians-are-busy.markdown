@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-05-22 03:57:08+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/05/22/the-indians-are-busy/
 slug: the-indians-are-busy
 title: The Indians are busy

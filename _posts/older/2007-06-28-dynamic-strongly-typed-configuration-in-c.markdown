@@ -5,7 +5,8 @@ date: 2007-06-28 21:33:55+00:00
 excerpt: I thought it was worth describing this configuration solution, since it was
   so neat, and easy, and had all of the benefits of text based configuration and strongly
   typed inline configuration.
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/06/29/dynamic-strongly-typed-configuration-in-c/
 slug: dynamic-strongly-typed-configuration-in-c
 title: Dynamic Strongly-Typed Configuration in C#

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-18 21:29:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/18/on-god-and-other-weird-ideas/
 slug: on-god-and-other-weird-ideas
 title: On God and other weird ideas

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-04-11 12:33:52+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/04/11/2000-year-old-computer-recreated/
 slug: 2000-year-old-computer-recreated
 title: 2000 Year Old Computer Recreated

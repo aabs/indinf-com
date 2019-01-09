@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2011-04-10 23:43:42+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2011/04/11/some-pictures-of-carlton-gardens/
 slug: some-pictures-of-carlton-gardens
 title: Some pictures of Carlton Gardens

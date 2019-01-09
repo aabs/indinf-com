@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-06-26 02:56:49+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/06/26/using-mock-objects-when-testing-linq-code/
 slug: using-mock-objects-when-testing-linq-code
 title: Using Mock Objects When Testing LINQ Code

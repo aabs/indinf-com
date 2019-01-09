@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-13 10:49:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/13/new-section-of-the-dbc-blog-uploaded/
 slug: new-section-of-the-dbc-blog-uploaded
 title: New section of the DBC blog uploaded

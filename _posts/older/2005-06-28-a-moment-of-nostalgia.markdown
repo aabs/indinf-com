@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-06-28 15:11:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/06/28/a-moment-of-nostalgia/
 slug: a-moment-of-nostalgia
 title: A moment of nostalgia

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-04-16 13:22:19+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/04/16/using-rdf-and-c-to-create-an-mp3-manager-part-1/
 slug: using-rdf-and-c-to-create-an-mp3-manager-part-1
 title: Using RDF and C# to create an MP3 Manager - Part 1

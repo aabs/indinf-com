@@ -7,7 +7,8 @@ excerpt: This is the second in a series on the basics of functional programming 
   privileges of a function as a first class citizen. I'm going to explore Higher-Order
   Functions this time. Higher-Order Functions are functions that themselves take or
   return functions. Meta-functions, if you like.
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/04/16/functional-programming-in-csharp-higher-order-functions/
 slug: functional-programming-in-csharp-higher-order-functions
 title: Functional Programming in C# - Higher-Order Functions

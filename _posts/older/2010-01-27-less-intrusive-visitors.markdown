@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2010-01-27 09:00:17+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2010/01/27/less-intrusive-visitors/
 slug: less-intrusive-visitors
 title: Less Intrusive Visitors

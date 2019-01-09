@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-08-29 09:37:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/08/29/we-got-a-new-camera/
 slug: we-got-a-new-camera
 title: We got a new camera

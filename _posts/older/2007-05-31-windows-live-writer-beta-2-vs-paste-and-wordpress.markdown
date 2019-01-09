@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-05-31 05:24:28+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/05/31/windows-live-writer-beta-2-vs-paste-and-wordpress/
 slug: windows-live-writer-beta-2-vs-paste-and-wordpress
 title: Windows Live Writer Beta 2, VS Paste and Wordpress

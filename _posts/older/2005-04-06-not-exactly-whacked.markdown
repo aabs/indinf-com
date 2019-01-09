@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-06 14:27:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/06/not-exactly-whacked/
 slug: not-exactly-whacked
 title: Not Exactly Whacked

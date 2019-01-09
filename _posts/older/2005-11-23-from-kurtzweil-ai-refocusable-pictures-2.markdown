@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-11-23 10:14:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/11/23/from-kurtzweil-ai-refocusable-pictures-2/
 slug: from-kurtzweil-ai-refocusable-pictures-2
 title: From Kurtzweil AI - Refocusable pictures

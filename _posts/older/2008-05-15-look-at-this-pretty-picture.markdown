@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-05-15 11:29:39+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/05/15/look-at-this-pretty-picture/
 slug: look-at-this-pretty-picture
 title: Look at this pretty picture!

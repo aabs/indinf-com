@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-21 13:14:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/21/note-to-self/
 slug: note-to-self
 title: Note to self

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-01-16 05:37:39+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/01/16/342/
 slug: '342'
 title: Nondeterministic Finite Automaton (NDFA) in C#

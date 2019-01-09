@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-02-11 22:37:10+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/02/12/using-task-scheduler-for-gtd-with-onenote-2007/
 slug: using-task-scheduler-for-gtd-with-onenote-2007
 title: Using Task Scheduler For GTD with OneNote 2007

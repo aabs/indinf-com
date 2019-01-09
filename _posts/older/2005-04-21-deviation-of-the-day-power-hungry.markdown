@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-21 12:39:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/21/deviation-of-the-day-power-hungry/
 slug: deviation-of-the-day-power-hungry
 title: Deviation of the day - Power Hungry

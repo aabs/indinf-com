@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-01-05 11:48:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/01/05/typoglycemia-2/
 slug: typoglycemia-2
 title: Typoglycemia

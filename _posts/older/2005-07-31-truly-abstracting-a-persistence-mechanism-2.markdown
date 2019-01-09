@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-07-31 18:46:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/07/31/truly-abstracting-a-persistence-mechanism-2/
 slug: truly-abstracting-a-persistence-mechanism-2
 title: Truly abstracting a persistence mechanism

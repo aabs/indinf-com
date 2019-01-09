@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-28 15:54:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/28/111467042245169271/
 slug: '111467042245169271'
 title: gracing my desktop today

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-11-19 09:34:11+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/19/self-modeling-robots/
 slug: self-modeling-robots
 title: Self Modeling Robots

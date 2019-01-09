@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-08-17 20:54:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/08/17/deeply-disoriented-my-ray-kurzweil-parody/
 slug: deeply-disoriented-my-ray-kurzweil-parody
 title: Deeply disoriented - my Ray Kurzweil parody

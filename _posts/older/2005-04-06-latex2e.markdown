@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-06 14:38:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/06/latex2e/
 slug: latex2e
 title: LaTeX2e

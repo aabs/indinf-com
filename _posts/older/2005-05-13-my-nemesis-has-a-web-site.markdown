@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-05-13 09:24:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/05/13/my-nemesis-has-a-web-site/
 slug: my-nemesis-has-a-web-site
 title: My nemesis has a web site

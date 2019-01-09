@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-06-05 00:04:01+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/06/05/linqtordf-designing-a-query-provider/
 slug: linqtordf-designing-a-query-provider
 title: LinqToRdf - Designing a Query Provider

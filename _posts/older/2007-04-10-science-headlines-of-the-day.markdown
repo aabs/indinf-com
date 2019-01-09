@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-04-10 12:06:09+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/04/10/science-headlines-of-the-day/
 slug: science-headlines-of-the-day
 title: Science Headlines of the Day

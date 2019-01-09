@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-09-19 23:13:54+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/09/20/wordpress-sabotage/
 slug: wordpress-sabotage
 title: WordPress Sabotage?

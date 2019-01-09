@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-14 09:27:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/14/linguistic-development/
 slug: linguistic-development
 title: Linguistic Development

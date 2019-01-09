@@ -8,7 +8,8 @@ excerpt: In this post I show you how to use the attribute metadata system to fil
   the post I’ll use Queries, Extension Methods, and iterators to show you how to get
   types for inserting into (something like) a code generation system. This one's long
   on code and short on talk for a change.
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/09/using-c-30-for-reflection/
 slug: using-c-30-for-reflection
 title: Using C# 3.0 For Reflection

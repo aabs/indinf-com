@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-10-09 04:02:26+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/10/09/audiofiler-%e2%80%93-my-search-is-overjust-begun/
 slug: audiofiler-%e2%80%93-my-search-is-overjust-begun
 title: AudioFiler – My Search is {over/just begun}*

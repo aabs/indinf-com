@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-03-15 02:34:21+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/03/15/do-i-say-anything-worthwhile-in-this-blog-%c2%ab-alec-the-geek/
 slug: do-i-say-anything-worthwhile-in-this-blog-%c2%ab-alec-the-geek
 title: Do I say anything worthwhile in this blog? « Alec the Geek

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-12-06 00:31:54+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/12/06/let-the-flame-wars-begin%e2%80%a6/
 slug: let-the-flame-wars-begin%e2%80%a6
 title: Let the Flame Wars Begin…

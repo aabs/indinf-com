@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-10-20 11:47:34+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/10/20/lambda-functions-in-multi-threaded-development/
 slug: lambda-functions-in-multi-threaded-development
 title: Lambda Functions in Multi-threaded Development

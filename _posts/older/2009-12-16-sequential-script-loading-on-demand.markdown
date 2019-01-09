@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2009-12-16 00:26:13+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2009/12/16/sequential-script-loading-on-demand/
 slug: sequential-script-loading-on-demand
 title: Sequential script loading on demand

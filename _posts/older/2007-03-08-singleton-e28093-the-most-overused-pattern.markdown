@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-03-08 12:24:16+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/03/08/singleton-%e2%80%93-the-most-overused-pattern/
 slug: singleton-%e2%80%93-the-most-overused-pattern
 title: Singleton – the most overused pattern.

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2009-12-07 14:09:36+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2009/12/08/quantum-reasoners-hold-key-to-future-web/
 slug: quantum-reasoners-hold-key-to-future-web
 title: Quantum Reasoners Hold Key to Future Web

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-01-29 09:08:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/01/29/electroconvulsive-therapy-2/
 slug: electroconvulsive-therapy-2
 title: Electroconvulsive Therapy

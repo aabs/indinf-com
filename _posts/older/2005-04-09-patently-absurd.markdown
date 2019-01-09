@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-09 18:46:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/09/patently-absurd/
 slug: patently-absurd
 title: Patently Absurd!

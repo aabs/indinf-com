@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-11-13 22:46:23+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/11/14/patternmatching/
 slug: patternmatching
 title: Pattern Matching in C#

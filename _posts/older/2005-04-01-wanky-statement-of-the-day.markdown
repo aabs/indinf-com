@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-01 14:27:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/01/wanky-statement-of-the-day/
 slug: wanky-statement-of-the-day
 title: Wanky statement of the day

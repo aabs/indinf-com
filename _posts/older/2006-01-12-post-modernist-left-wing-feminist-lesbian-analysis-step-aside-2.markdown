@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-01-12 10:47:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/01/12/post-modernist-left-wing-feminist-lesbian-analysis-step-aside-2/
 slug: post-modernist-left-wing-feminist-lesbian-analysis-step-aside-2
 title: Post-modernist left-wing feminist lesbian analysis, step aside!

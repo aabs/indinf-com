@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-08-03 10:29:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/08/03/im-still-coming-to-the-aid-of-the-unlucky-and-cancerous/
 slug: im-still-coming-to-the-aid-of-the-unlucky-and-cancerous
 title: I'm still coming to the aid of the unlucky (and cancerous)

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-05-05 09:54:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/05/05/from-kurtzweilai-augmenting-the-animal-kingdom/
 slug: from-kurtzweilai-augmenting-the-animal-kingdom
 title: 'From KurtzweilAI: Augmenting the Animal Kingdom'

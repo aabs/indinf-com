@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-26 17:25:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/26/great-gui-design/
 slug: great-gui-design
 title: Great GUI Design

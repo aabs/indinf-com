@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-02-04 10:57:06+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/02/04/ides-are-not-a-panacea-but-neither-are-they-all-bad/
 slug: ides-are-not-a-panacea-but-neither-are-they-all-bad
 title: IDEs are not a panacea, but neither are they all bad

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2010-08-31 00:02:34+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2010/08/31/note-to-self-convert-utf-8-w-bom-to-ascii-wix-db-using-gnu-uconv/
 slug: note-to-self-convert-utf-8-w-bom-to-ascii-wix-db-using-gnu-uconv
 title: 'Note to Self: Convert UTF-8 w/ BOM to ASCII (WIX + DB) using GNU uconv'

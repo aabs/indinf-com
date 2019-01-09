@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-04-14 13:27:46+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/04/14/gorgeous-lightning-photograph/
 slug: gorgeous-lightning-photograph
 title: Gorgeous Lightning Photograph

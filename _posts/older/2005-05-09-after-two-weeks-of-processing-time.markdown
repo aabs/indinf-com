@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-05-09 14:39:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/05/09/after-two-weeks-of-processing-time/
 slug: after-two-weeks-of-processing-time
 title: After two weeks of processing time

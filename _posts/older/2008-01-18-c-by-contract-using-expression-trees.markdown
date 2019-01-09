@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-01-18 06:00:48+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/01/18/c-by-contract-using-expression-trees/
 slug: c-by-contract-using-expression-trees
 title: C# by Contract - Using Expression Trees

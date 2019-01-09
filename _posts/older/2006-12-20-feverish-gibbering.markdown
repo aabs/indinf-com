@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-12-20 22:22:14+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/12/21/feverish-gibbering/
 slug: feverish-gibbering
 title: Feverish Gibbering

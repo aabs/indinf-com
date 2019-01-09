@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-06-19 23:37:25+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/06/20/perils-of-agile-development-the-outsourcees-perspective/
 slug: perils-of-agile-development-the-outsourcees-perspective
 title: Perils of Agile development - the outsourcee's perspective

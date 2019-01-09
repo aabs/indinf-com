@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-06-29 18:31:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/06/29/its-foggy-in-melbourne-today/
 slug: its-foggy-in-melbourne-today
 title: It's foggy in Melbourne today

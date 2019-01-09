@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-12-06 00:14:09+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/12/06/polymorphism-in-cnet-makes-code-incomprehensible/
 slug: polymorphism-in-cnet-makes-code-incomprehensible
 title: Polymorphism in C#/.NET Makes Code Incomprehensible

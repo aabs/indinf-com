@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-08-30 07:00:59+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/08/30/sorry-to-waste-your-time/
 slug: sorry-to-waste-your-time
 title: Sorry to waste your time

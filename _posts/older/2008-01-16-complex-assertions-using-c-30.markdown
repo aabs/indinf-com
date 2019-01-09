@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-01-16 03:44:35+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/01/16/complex-assertions-using-c-30/
 slug: complex-assertions-using-c-30
 title: Complex Assertions using C# 3.0

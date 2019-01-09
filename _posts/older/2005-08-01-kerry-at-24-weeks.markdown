@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-08-01 16:31:03+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/08/01/kerry-at-24-weeks/
 slug: kerry-at-24-weeks
 title: Kerry at 24 weeks

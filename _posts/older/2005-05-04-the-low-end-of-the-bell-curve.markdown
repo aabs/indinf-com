@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-05-04 10:38:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/05/04/the-low-end-of-the-bell-curve/
 slug: the-low-end-of-the-bell-curve
 title: The low end of the bell curve

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-08-17 20:07:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/08/17/first-light/
 slug: first-light
 title: First Light!!!!!!!!

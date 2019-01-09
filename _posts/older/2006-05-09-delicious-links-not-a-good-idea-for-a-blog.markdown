@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-05-09 23:44:54+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/05/10/delicious-links-not-a-good-idea-for-a-blog/
 slug: delicious-links-not-a-good-idea-for-a-blog
 title: del.icio.us links not a good idea for a blog

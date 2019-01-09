@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-09-09 11:00:40+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/09/09/page-rank-1-for-linq/
 slug: page-rank-1-for-linq
 title: Page Rank 1 for LINQ

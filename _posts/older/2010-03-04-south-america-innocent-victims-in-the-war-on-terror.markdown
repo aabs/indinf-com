@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2010-03-04 03:11:57+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2010/03/04/south-america-innocent-victims-in-the-war-on-terror/
 slug: south-america-innocent-victims-in-the-war-on-terror
 title: South America? Innocent victims in the war on terror!

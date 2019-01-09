@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-10-26 02:26:13+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/10/26/moderate-drinking-can-improve-memory/
 slug: moderate-drinking-can-improve-memory
 title: Moderate drinking can improve memory

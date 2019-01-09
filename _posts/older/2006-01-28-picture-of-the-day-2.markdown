@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-01-28 18:57:17+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/01/28/picture-of-the-day-2/
 slug: picture-of-the-day-2
 title: Picture of the day

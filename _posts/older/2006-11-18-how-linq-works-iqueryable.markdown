@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-11-18 13:07:58+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/18/how-linq-works-iqueryable/
 slug: how-linq-works-iqueryable
 title: How LINQ Works - IQueryable

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-02-05 20:34:45+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/02/06/a-cure-for-cancer/
 slug: a-cure-for-cancer
 title: A Cure for Cancer

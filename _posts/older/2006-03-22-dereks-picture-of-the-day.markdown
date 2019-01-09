@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-03-22 23:32:56+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/03/22/dereks-picture-of-the-day/
 slug: dereks-picture-of-the-day
 title: Derek's Picture of the day

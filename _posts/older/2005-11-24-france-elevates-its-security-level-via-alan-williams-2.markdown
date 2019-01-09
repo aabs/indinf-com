@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-11-24 11:56:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/11/24/france-elevates-its-security-level-via-alan-williams-2/
 slug: france-elevates-its-security-level-via-alan-williams-2
 title: France Elevates its Security Level - via Alan Williams

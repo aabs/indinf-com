@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2009-03-19 22:52:09+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2009/03/20/quote-of-the-day-chris-sells-on-cocktail-parties/
 slug: quote-of-the-day-chris-sells-on-cocktail-parties
 title: Quote of the Day - Chris Sells on Cocktail Parties

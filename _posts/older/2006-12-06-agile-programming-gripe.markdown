@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-12-06 03:05:35+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/12/06/agile-programming-gripe/
 slug: agile-programming-gripe
 title: Agile Programming Gripe

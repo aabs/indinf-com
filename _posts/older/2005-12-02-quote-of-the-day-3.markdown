@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-12-02 13:47:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/12/02/quote-of-the-day-3/
 slug: quote-of-the-day-3
 title: Quote of the day

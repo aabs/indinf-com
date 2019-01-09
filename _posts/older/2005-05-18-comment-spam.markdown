@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-05-18 10:08:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/05/18/comment-spam/
 slug: comment-spam
 title: Comment Spam

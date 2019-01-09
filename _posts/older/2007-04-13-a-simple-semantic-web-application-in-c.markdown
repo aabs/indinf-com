@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-04-13 06:37:20+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/04/13/a-simple-semantic-web-application-in-c/
 slug: a-simple-semantic-web-application-in-c
 title: A simple semantic web application in C#

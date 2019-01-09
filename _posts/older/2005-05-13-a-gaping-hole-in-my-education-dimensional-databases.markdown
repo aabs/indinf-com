@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-05-13 10:54:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/05/13/a-gaping-hole-in-my-education-dimensional-databases/
 slug: a-gaping-hole-in-my-education-dimensional-databases
 title: A gaping hole in my education - Dimensional Databases

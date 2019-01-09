@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-09-02 11:22:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/09/02/now-heres-something-id-trade-in-the-hyundai-to-own/
 slug: now-heres-something-id-trade-in-the-hyundai-to-own
 title: Now here's something I'd trade in the Hyundai to own

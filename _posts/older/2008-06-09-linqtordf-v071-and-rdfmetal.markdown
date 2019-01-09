@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-06-09 12:20:08+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/06/09/linqtordf-v071-and-rdfmetal/
 slug: linqtordf-v071-and-rdfmetal
 title: LinqToRdf v0.7.1 and RdfMetal

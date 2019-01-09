@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-11-27 03:20:14+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/27/boocom-to-reincorporate-one-for-you-aggy/
 slug: boocom-to-reincorporate-one-for-you-aggy
 title: 'Boo.com to reincorporate: one for you Aggy'

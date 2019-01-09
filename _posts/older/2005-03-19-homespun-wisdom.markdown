@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-03-19 10:08:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/03/19/homespun-wisdom/
 slug: homespun-wisdom
 title: Homespun Wisdom

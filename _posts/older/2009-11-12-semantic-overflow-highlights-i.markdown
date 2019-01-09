@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2009-11-12 21:47:33+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2009/11/13/semantic-overflow-highlights-i/
 slug: semantic-overflow-highlights-i
 title: Semantic Overflow Highlights I

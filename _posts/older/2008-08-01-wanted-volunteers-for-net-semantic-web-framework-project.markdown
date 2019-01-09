@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-08-01 22:34:13+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/08/02/wanted-volunteers-for-net-semantic-web-framework-project/
 slug: wanted-volunteers-for-net-semantic-web-framework-project
 title: 'Wanted: Volunteers for .NET semantic web framework project'

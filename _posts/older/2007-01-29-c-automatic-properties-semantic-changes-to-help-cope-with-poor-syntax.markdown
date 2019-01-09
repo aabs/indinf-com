@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-01-29 03:37:42+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/01/29/c-automatic-properties-semantic-changes-to-help-cope-with-poor-syntax/
 slug: c-automatic-properties-semantic-changes-to-help-cope-with-poor-syntax
 title: 'C# Automatic Properties: Semantic changes to help cope with poor syntax? '

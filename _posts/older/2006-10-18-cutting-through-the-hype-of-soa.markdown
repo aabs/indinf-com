@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-10-18 07:13:54+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/10/18/cutting-through-the-hype-of-soa/
 slug: cutting-through-the-hype-of-soa
 title: Cutting through the hype of SOA

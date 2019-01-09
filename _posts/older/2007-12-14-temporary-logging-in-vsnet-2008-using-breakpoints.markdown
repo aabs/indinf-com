@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-12-14 01:45:42+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/12/14/temporary-logging-in-vsnet-2008-using-breakpoints/
 slug: temporary-logging-in-vsnet-2008-using-breakpoints
 title: Temporary logging in VS.NET 2008 using Tracepoints

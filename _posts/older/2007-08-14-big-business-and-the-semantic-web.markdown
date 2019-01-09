@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-08-14 12:57:37+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/08/14/big-business-and-the-semantic-web/
 slug: big-business-and-the-semantic-web
 title: Big Business and the Semantic Web

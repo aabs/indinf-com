@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-05-13 09:33:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/05/13/cyborg-upgrades/
 slug: cyborg-upgrades
 title: Cyborg Upgrades

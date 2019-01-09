@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-04-10 02:14:55+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/04/10/darth-vader-never-had-to-put-up-with-this/
 slug: darth-vader-never-had-to-put-up-with-this
 title: Darth Vader never had to put up with this!

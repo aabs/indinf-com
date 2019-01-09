@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2010-03-06 10:15:14+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2010/03/06/surreal-graham-norton-moment/
 slug: surreal-graham-norton-moment
 title: Surreal Graham Norton Moment

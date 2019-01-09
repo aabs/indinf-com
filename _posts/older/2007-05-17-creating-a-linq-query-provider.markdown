@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-05-17 23:20:58+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/05/18/creating-a-linq-query-provider/
 slug: creating-a-linq-query-provider
 title: Creating A LINQ Query Provider

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-03-23 13:51:55+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/03/23/converting-jena-to-net/
 slug: converting-jena-to-net
 title: Converting Jena to .NET

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-07-07 13:00:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/07/07/programming-gem-of-the-day/
 slug: programming-gem-of-the-day
 title: Programming Gem of the day

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-02-04 11:52:39+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/02/04/powershell-not-inferior-to-cygwin/
 slug: powershell-not-inferior-to-cygwin
 title: PowerShell NOT inferior to Cygwin

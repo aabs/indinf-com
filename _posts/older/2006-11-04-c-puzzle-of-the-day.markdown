@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-11-04 21:50:50+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/05/c-puzzle-of-the-day/
 slug: c-puzzle-of-the-day
 title: C# puzzle of the day

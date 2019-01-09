@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-20 18:44:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/20/111398669529094891/
 slug: '111398669529094891'
 title: Who should you vote for?

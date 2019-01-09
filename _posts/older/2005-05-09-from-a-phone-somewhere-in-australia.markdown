@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-05-09 13:51:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/05/09/from-a-phone-somewhere-in-australia/
 slug: from-a-phone-somewhere-in-australia
 title: From a phone somewhere in Australia

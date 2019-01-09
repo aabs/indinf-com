@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-04-12 14:22:21+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/04/13/links-for-2006-04-12/
 slug: links-for-2006-04-12
 title: links for 2006-04-12

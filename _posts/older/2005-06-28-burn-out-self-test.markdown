@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-06-28 16:56:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/06/28/burn-out-self-test/
 slug: burn-out-self-test
 title: Burn-out self-test

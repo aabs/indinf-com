@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2007-09-04 13:40:51+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2007/09/04/the-future-of-search/
 slug: the-future-of-search
 title: The Future of Search

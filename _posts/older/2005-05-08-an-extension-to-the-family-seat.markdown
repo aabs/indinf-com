@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-05-08 17:58:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/05/08/an-extension-to-the-family-seat/
 slug: an-extension-to-the-family-seat
 title: An extension to the family seat

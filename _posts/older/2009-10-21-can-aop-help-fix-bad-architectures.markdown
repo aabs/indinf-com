@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2009-10-21 22:55:34+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2009/10/22/can-aop-help-fix-bad-architectures/
 slug: can-aop-help-fix-bad-architectures
 title: Can AOP help fix bad architectures?

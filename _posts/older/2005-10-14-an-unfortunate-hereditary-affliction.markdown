@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-10-14 22:39:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/10/14/an-unfortunate-hereditary-affliction/
 slug: an-unfortunate-hereditary-affliction
 title: An unfortunate hereditary affliction

@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-09-06 03:15:59+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/09/06/formatting-in-data-bound-controls/
 slug: formatting-in-data-bound-controls
 title: Formatting in Data Bound Controls

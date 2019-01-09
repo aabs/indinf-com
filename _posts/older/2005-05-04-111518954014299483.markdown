@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-05-04 16:49:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/05/04/111518954014299483/
 slug: '111518954014299483'
 title: No Content Found

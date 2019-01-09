@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-04-18 22:04:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/04/18/a-jedi-fly-through/
 slug: a-jedi-fly-through
 title: A Jedi Fly-through

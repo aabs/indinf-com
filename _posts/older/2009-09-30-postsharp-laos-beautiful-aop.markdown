@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2009-09-30 02:39:37+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2009/09/30/postsharp-laos-beautiful-aop/
 slug: postsharp-laos-beautiful-aop
 title: PostSharp Laos - Beautiful AOP.

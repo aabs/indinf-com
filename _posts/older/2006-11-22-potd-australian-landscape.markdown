@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-11-22 23:18:08+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/11/23/potd-australian-landscape/
 slug: potd-australian-landscape
 title: POTD - Australian Landscape

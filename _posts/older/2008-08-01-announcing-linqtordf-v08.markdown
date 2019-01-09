@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-08-01 13:04:12+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/08/01/announcing-linqtordf-v08/
 slug: announcing-linqtordf-v08
 title: Announcing LinqToRdf v0.8

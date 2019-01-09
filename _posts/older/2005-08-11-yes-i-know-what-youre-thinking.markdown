@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-08-11 13:19:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/08/11/yes-i-know-what-youre-thinking/
 slug: yes-i-know-what-youre-thinking
 title: Yes I know what you're thinking...

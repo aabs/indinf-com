@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-03-18 15:53:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/03/18/which-codegen-technique-2/
 slug: which-codegen-technique-2
 title: Which codegen technique?

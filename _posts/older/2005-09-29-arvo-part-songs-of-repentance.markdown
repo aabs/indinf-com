@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2005-09-29 09:46:00+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2005/09/29/arvo-part-songs-of-repentance/
 slug: arvo-part-songs-of-repentance
 title: Arvo Part - Songs of Repentance

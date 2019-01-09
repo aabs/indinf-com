@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2008-04-23 10:22:35+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2008/04/23/sparql-tutorial-just-published-on-developerworks/
 slug: sparql-tutorial-just-published-on-developerworks
 title: SPARQL Tutorial Just Published On DeveloperWorks

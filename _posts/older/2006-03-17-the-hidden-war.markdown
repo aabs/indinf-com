@@ -2,7 +2,8 @@
 author: aabs
 comments: true
 date: 2006-03-17 05:32:47+00:00
-layout: post
+layout: page
+header: no
 link: https://aabs.wordpress.com/2006/03/17/the-hidden-war/
 slug: the-hidden-war
 title: The Hidden War
