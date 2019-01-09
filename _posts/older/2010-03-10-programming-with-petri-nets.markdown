@@ -8,19 +8,18 @@ excerpt: Petri Nets are extremely powerful and expressive, but they are not as w
   with Petri Nets. All of the code for a full feature-complete Petri Net library is
   available online at on GitHub. You're welcome to take a copy, play with it and use
   it in your own projects.
-layout: post
-link: https://aabs.wordpress.com/2010/03/10/programming-with-petri-nets/
-slug: programming-with-petri-nets
+layout: page
+header: no
 title: Automata-Based Programming With Petri Nets - Part 1
 wordpress_id: 686
 categories:
-- programming
-- SemanticWeb
+  - programming
+  - SemanticWeb
 tags:
-- CompSci
-- Computer Science
-- Petri Nets
-- programming
+  - CompSci
+  - Computer Science
+  - Petri Nets
+  - programming
 ---
 
 _Petri Nets are extremely powerful and expressive, but they are not as widely used in the software development community as deterministic state machines. That's a pity - they allow us to solve problems beyond the reach of conventional state machines. This is the first in a mini-series on software development with Petri Nets. All of the code for a full feature-complete Petri Net library is available online at GitHub. You're welcome to take a copy, play with it and use it in your own projects. Code for this and subsequent articles can be found at _[_http://github.com/aabs/PetriNets_](http://github.com/aabs/PetriNets)_.
