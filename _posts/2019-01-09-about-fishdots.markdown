@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Announcing Fishdots
-date:   2019-01-09 17:12:05
-description: projects
+title:  "Announcing Fishdots"
+categories: [fishdots, foss]
+tags: [announcement]
 ---
 
 # Announcing Fishdots
