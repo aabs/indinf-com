@@ -1,12 +1,12 @@
 # Site settings
-title: *folio
-email: you@example.com
+title: The Wandering Glitch
+email: aabs@industrialinference.com
 description: > # this means to ignore newlines until "baseurl:"
-  A simple, whitespace, helvetica based portfolio theme.
-baseurl:  # the subpath of your site, e.g. /blog/
-url:  # the base hostname & protocol for your site
-twitter_username: twitter_username
-github_username:  github_username
+  A continuation of the wandering glitch after a hiatus of about a million years.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.industrialinference.com" # the base hostname & protocol for your site
+twitter_username: indinf
+github_username:  aabs
 
 # Build settings
 markdown: kramdown
@@ -19,11 +19,15 @@ paginate_path: "/blog/page:num/"
 
 
 collections:
+  blog:
+    output: true
+    permalink: /posts/:path/
   portfolio:
     output: true
     permalink: /portfolio/:path/
   poetry:
     output: true
     permalink: /poetry/:path/
+
 
 

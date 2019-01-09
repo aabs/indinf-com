@@ -14,4 +14,4 @@ holman's zsh dotfiles was not flexible or fishy enought for my liking.
 
 <!-- 
 vim: tw=80 sw=2 ts=2 
-  -->
+-->
