@@ -9,4 +9,6 @@ This is a little project, called **Fishdots**, I've been working on in my spare 
 discovered the joys of Fish Shell.
 
 
-<!-- vim: tw=80 sw=2 ts=2 -->
+<!-- 
+vim: tw=80 sw=2 ts=2 
+-->
