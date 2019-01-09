@@ -2,7 +2,7 @@
 title: The Wandering Glitch
 email: aabs@industrialinference.com
 description: > # this means to ignore newlines until "baseurl:"
-  A continuation of the wandering glitch after a hiatus of about a million years.
+  A continuation of the wandering glitch after a hiatus of about a million years
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.industrialinference.com" # the base hostname & protocol for your site
 twitter_username: indinf
