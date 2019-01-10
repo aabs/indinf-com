@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "About"
-subheadline: "Why another Jekyll Theme?"
-teaser: "Since years I am programming and designing websites. I love to work with open source tools and learn via code from others. This time I want to try to give something back..."
+subheadline: "industrial Inference - services and advantages"
+teaser: "How to take advantage of my many years of experience in software development, architecture and strategy..."
 permalink: "/info/"
 header:
     image_fullwidth: "header_drop.jpg"
